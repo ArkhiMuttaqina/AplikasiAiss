@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Aplikasi Aiss</string>
+
+    <string-array name="ArrayKesempatan">
+        <item>Melanggar undang-undang lalu lintas, bayar denda di bank Rp 5.000</item>
+        <item>Terima uang sewa dari bank Rp 10.000</item>
+        <item>Maju sampai tari Guel, jika melalui start terima Rp 5.000</item>
+        <item>Terima undian dari bank 2.000 rupiah</item>
+        <item>Maju sampai tari Guel, jika melalui start terima Rp 5.000</item>
+        <item>Anda berhak mengakuisisi 1 perusahaan yang dimiliki salah satu pemain</item>
+        <item>Anda mendapat hadiah pertama teka-teki silang, terimalah 7.000</item>
+        <item>Bayar di bank dana pembetulan jalan muka persil anda, tiap rumah 2.000, tiap hotel 5.000</item>
+        <item>Maju sampai start</item>
+        <item>Bayar asuransi Rp. 10.000</item>
+        <item>Mabuk ditempat umum bayar denda di bank Rp 5.000</item>
+        <item>Maju sampai tari topeng betawi</item>
+        <item>Mundur 2 petak</item>
+        <item>Bayar denda keterlambatan membayar hutang bank, sebesar 8.000 rupiah</item>
+        <item>Maju 2 petak</item>
+    </string-array>
+    <string-array name="ArrayDana">
+        <item>Terima warisan 5.000 rupiah</item>
+        <item>Bayar denda Rp 5.000 atau mengambil kartu kesempatan</item>
+        <item>Maju sampai start</item>
+        <item>Maju 3 petak</item>
+        <item>Merokok ditempat umum, bayar denda di bank Rp 3.000</item>
+        <item>Anda boleh menjual saham anda saat ini.</item>
+        <item>Kembali ke suku badui</item>
+        <item>Hari ulang tahun anda, anda terima uang sebesar 2.000 rupiah dari masing-masing pemain.</item>
+        <item>Terima bunga dari bank Rp 3.000</item>
+        <item>Karena kesalahan bank, anda terima 10.000 rupiah</item>
+        <item>Terima bunga 1.000 rupiah</item>
+        <item>Bayar biaya rumah sakit Rp 10.000</item>
+        <item>Mundur 3 petak</item>
+        <item>Anda mendapatkan undian sebesar 5.000</item>
+        <item>Merokok ditempat umum, bayar denda di bank Rp 3.000</item>
+        <item>Anda boleh menjual saham anda saat ini.</item>
+    </string-array>
+    <string-array name="ArrayKuis">
+        <item>Salah satu tarian daerah dari betawi adalah ?
+            a. Tari piring betawi
+            b. Tari topeng betawi.
+            Jawaban A.</item>
+        <item>Tari inai adalah salah satu dari macam-macam tarian daerah jambi lebih tepatnya dari Desa teluk majelis. Apa tujuan dari tarian tersebut ? a. Untuk ritual kepada nenek moyang ketika memiliki keturunan b. Sebagai ritual menjaga calon mempelai wanita dari gangguan supranatural. Jawabanya B</item>
+        <item>Suku yang merupakan suku terbesar ke 2 setelah suku Jawa adalah a. Suku sunda b. Suku betawi. Jawaban A</item>
+        <item>Bagaimna kehidupan suku baduy ? a. Sangat modern dan maju b. Sangat tradisional terisolasi dari sunia luar. Jawaban B</item>
+        <item>Salah satu suku yang sangat dikenal dengan hal-hal mistis dan kesakralan adat budayanya adalah a. Suku jawa dari Daerah Istimewa Jogjayakarta b. Suku Betawi. Jawaban B</item>
+        <item>Makanan paling khas dari suku madura yang terkenal adalah a. Sate madura b. Soto madura. Jawaban A</item>
+        <item>Musik traditional Kolindtang adalah musik yang cara memainkanya dengan cara dipukul dengan alat tertentu. Sari manakah asal Musik traditional kolintang ini ? a. Samarinda b. Minahasa .  Jawaban B</item>
+        <item>Seluang adalah alat musik trditional yang berasal dari Minangkabau. Terbuat dari apakah alat musik ini ? a. Bambu b. Batok kelapa. Jawaban  A.</item>
+        <item>Bagaimanakah cara memainkan alat musik gambus ? a. Ditiup b. Dipetik. Jawaban B</item>
+        <item>Aramba adalah salah satu jenis alat musik yang cara memainkanya dengan cara dipukul. Terbuat dari bahan apakah alamat musik tersebut ? a. Besi dan tembaga b. Kuningan dan logam. Jawaban B </item>
+        <item>Selaso jatuh kembar adalah rumah adat yang berasa dari riau. Apa makna dari nama tersebut ? a. Memiliki 2 sisi atap yang sama antara depan dan belakang serta pada bagian depan rumah terdapat teras yang letaknya dibaag rumah b. Karena memiliki selasar yang lebih rendah dibandingkan dengan ruang tengah dan beberbentuk sama pada sisi kiri dan kanan tangga masuk. Jawaban B </item>
+        <item>Dari manakah asal dari rumah gadang ? a. Sumatra Barat b. Sumatra Selatan. Jawaban  A</item>
+        <item>Rumah baloy adalah rumah adat kalimantan utara. Bagaimanakah bentuk rumah baloy ? a. atapnya berbentuk melengkung terbuat dari kayu jati b. Berbentuk panggung dan terbuat dari kayu ulin. Jawaban B</item>
+        <item>Rumah adat dari Provinsi DKI Jakarta disebut dengan rumah kebaya. Rumah ini adalah ciri kas dari suku ? a. Banten b. Betawi. Jawaban  B</item>
+        <item>Sebutkan bagian-bagian rumah dari rumah adat walewangko sulawesi utara? a. Lesar, sekey, pores b. Mina, jintu, sedah. Jawaban A</item>
+        <item>Tari guel adalah tarian adat yang berasal dari ? a. Aceh b. Padang. Jawaban A</item>
+        <item>Tari barong merupakan tarian peninggalan kebudayaan pra Hindu. Kata barong berasal dari kata bahruang yang dianggap sebagai ? a. Hewan pelindung b. Hewan perusak. Jawaban A</item>
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guel">Tari Guel adalah salah satu tarian tradisional yang berasal dari budaya masyarakat Gayo di Aceh. Tarian ini cenderung berbeda dengan tarian-tarian tradisional Aceh kebanyakan, terutama dari segi geraknya. Tari Guel memiliki gerakan yang sangat khas dan penuh makna, bahkan terkesan bernuansa magis. Sehingga tak jarang membuat para penonton seakan terhipnotis dan terbawa suasana saat menyaksikannya. Tarian guel merupakan salah satu tarian tradisional yang cukup terkenal di Aceh, khususnya di kalangan masyarakat Gayo. Tarian ini biasanya sering ditampilkan di acara-acara adat maupun budaya yang diselenggarakan di sana.</string>
+    <string name="tarian_guel">Tarian Guel</string>
+    <string name="Aramba">Alat Musik Aramba (Arumba) merupakan bagian dari alat musik tradisional Sumatera Utara (Sumut), tepatnya dari kabupaten Nias. Alat ini dipakai oleh warga setempat dalam acara kesenian daerah, seperti penikahan. Dimainkan oleh satu orang, alat musik Aramba termasuk jenis musik alat musik ideofon. Bagi warga Nias, alat musik ini diyakini mempunyai nilai keramat alias mistis.</string>
+    <string name="alat_musik_aramba">Alat Musik Aramba</string>
+</resources>

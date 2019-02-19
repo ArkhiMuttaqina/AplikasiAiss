@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bgkuis"
+    tools:context=".QuizActivity">
+
+    <ScrollView
+        style="@android:style/Widget.DeviceDefault.Light.ScrollView"
+        android:layout_width="360dp"
+        android:layout_marginTop="56dp"
+        android:layout_height="670dp"
+        android:scrollbarSize="1dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <TextView
+            android:id="@+id/tvResultKuis"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"/>
+
+    </ScrollView>
+    <ImageButton
+        android:id="@+id/btnKuis"
+        android:layout_width="143dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="112dp"
+        android:scaleType="fitXY"
+        android:background="@mipmap/buttonkuis" />
+</RelativeLayout>

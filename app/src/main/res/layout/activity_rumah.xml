@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rumah">
+
+    <ImageView
+        android:layout_width="490dp"
+        android:layout_height="855dp"
+        android:background="@mipmap/bg_adat"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="356dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="180dp"
+        >
+        <ImageButton
+            android:id="@+id/waleng"
+            android:layout_width="176dp"
+            android:hapticFeedbackEnabled="true"
+            android:layout_height="233dp"
+            android:background="@mipmap/wawangko" />
+        <ImageButton
+            android:id="@+id/kebaya"
+            android:layout_width="222dp"
+            android:layout_height="233dp"
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginLeft="176dp"
+            android:background="@mipmap/kabaya" />
+        <ImageButton
+            android:id="@+id/gadang"
+            android:layout_width="176dp"
+            android:layout_height="233dp"
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginTop="222dp"
+            android:background="@mipmap/gadang" />
+        <ImageButton
+            android:id="@+id/salaso"
+            android:layout_width="222dp"
+            android:layout_height="233dp"
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginLeft="176dp"
+            android:background="@mipmap/salaso" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/m_bgsuku"
+    tools:context=".mbaduy">
+
+    <ImageView
+        android:layout_width="391dp"
+        android:layout_height="289dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/m_baduy" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="310dp"
+        android:text="Suku Baduy"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:shadowColor="@color/text_shadow"
+/>
+    <ScrollView
+        android:layout_width="460dp"
+        android:layout_height="290dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="20dp"
+        android:scrollbarSize="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Suku Baduy ini adalah suku asli dari provinsi Banten, tepatnya kabupaten Lebak. Tradisi dan budaya menjadi salah satu hal yang sangat dijaga oleh suku Baduy, nih, teman-teman.
+
+Nama Baduy terlesip diantara banyaknya suku yang ada di Indonesia. Kelompok etnis Sunda ini hidup bersama alam di Pegunungan Kendeng, Desa Kanekes, Kecamatan Leuwidamar, Kabupaten Lebak, Banten. Suku Baduy terbagi dalam dua golongan yang disebut dengan Baduy Dalam dan Baduy Luar.
+
+Perbedaan yang paling mendasar dari kedua suku ini adalah dalam menjalankan pikukuh atau aturan adat saat pelaksanaannya. Jika Baduy Dalam masih memegang teguh adat dan menjalankan aturan adat dengan baik, sebaliknya tidak dengan saudaranya Baduy Luar."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

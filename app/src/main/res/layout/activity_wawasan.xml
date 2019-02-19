@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bgwawasan"
+    tools:context=".WawasanActivity">
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="670dp"
+        android:layout_marginTop="50dp">
+
+        <ImageButton
+            android:id="@+id/menuAlat"
+            android:layout_width="358dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="1dp"
+            android:background="@mipmap/menualat"
+            android:scaleType="fitXY" />
+        <ImageButton
+            android:id="@+id/menuTari"
+            android:layout_width="358dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="1dp"
+            android:background="@mipmap/menutari"
+            android:scaleType="fitXY" />
+        <ImageButton
+            android:id="@+id/menuSuku"
+            android:layout_width="358dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="312dp"
+            android:layout_marginRight="1dp"
+            android:background="@mipmap/menusuku"
+            android:scaleType="fitXY" />
+        <ImageButton
+            android:id="@+id/menuRumah"
+            android:layout_width="358dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginRight="1dp"
+            android:background="@mipmap/menurumah"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

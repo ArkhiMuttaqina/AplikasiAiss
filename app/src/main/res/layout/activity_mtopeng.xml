@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mtopeng"
+    android:background="@mipmap/m_bgmusik">
+
+    <ImageView
+        android:layout_width="391dp"
+        android:layout_height="289dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/m_topeng" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="310dp"
+        android:text="Tarian Topeng"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp" />
+    <ScrollView
+        android:layout_width="460dp"
+        android:layout_height="290dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="20dp"
+        android:scrollbarSize="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tari topeng merupakan tarian tradisional yang berasal dari Cirebon, Jawa Barat. Tarian ini dipentaskan oleh penari-penari yang memakai topeng. Keunikan dari tarian ini adalah topeng yang dikenakan mempunyai karakter yang berbeda-beda.
+
+Penari yang mementaskan Tari Topeng disebut Dalang. Karena setiap penari memerankan karakter pada topeng yang dikenakan. Tarian ini dapat dipentaskan oleh satu orang penari dan juga dapat dipentaskan oleh beberapa orang penari."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

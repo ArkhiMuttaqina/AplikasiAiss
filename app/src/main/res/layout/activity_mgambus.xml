@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mgambus"
+    android:background="@mipmap/m_bgalat">
+    <ImageView
+        android:layout_width="391dp"
+        android:layout_height="289dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/m_gambus" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="310dp"
+        android:text="Alat Musik Gambus"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:shadowColor="@color/text_shadow" />
+<ScrollView
+    android:layout_width="460dp"
+    android:layout_height="290dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="370dp"
+    android:layout_marginRight="20dp"
+    android:scrollbarSize="1dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Alat musik tradisional Gambus adalah salah satu jenis instrumental musik tradisional yang terdapat hampir di seluruh kawasan Melayu. Gambus sekilas menyerupai dengan gitar, namun memiliki bentuk yang mirip dengan buah labu dibagi dua. Alat musik Gambus merupakan salah satu alat musik petik yang berdawai.
+Alat musik ini memiliki fungsi sebagai pengiring tarian zapin yang Berasal dari Timur Tengah, Versi melayu menggunakan string 9-12 kawat yang dipetik. Secara umum ada dua jenis gambus yang digunakan, Gambus Hadramaut dan Gambus Hijaz.
+Alat musik ini juga pengiring nyanyian pada waktu diselenggarakan pesta pernikahan atau acara syukuran. Alat musik ini identik dengan nyanyian yang bernafaskan Islam.
+
+"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp" />
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

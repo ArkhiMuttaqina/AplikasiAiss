@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mbarong"
+    android:background="@mipmap/m_bgmusik">
+    <ImageView
+        android:layout_width="391dp"
+        android:layout_height="289dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/m_barong" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="310dp"
+        android:text="Tarian Barong"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"/>
+    <ScrollView
+        android:layout_width="460dp"
+        android:layout_height="290dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="20dp"
+        android:scrollbarSize="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tari Barong adalah tarian khas Bali yang berasal dari khazanah kebudayaan Pra-Hindu. Tarian ini menggambarkan pertarungan antara kebajikan (dharma) dan kebatilan (adharma). Wujud kebajikan dilambangkan oleh Barong, yaitu penari dengan kostum binatang berkaki empat, sementara wujud kebatilan dimainkan oleh Rangda, yaitu sosok yang menyeramkan dengan dua taring runcing di mulutnya. Tari Barong adalah pertunjukan seni paling populer dan diminati oleh wisatawan yang berkunjung ke Bali.
+
+Ada beberapa jenis Tari Barong yang biasa ditampilkan di Pulau Bali, di antaranya Barong Ket, Barong Bangkal (babi), Barong Gajah, Barong Asu (anjing), Barong Brutuk, serta Barong-barongan. Namun, di antara jenis-jenis Barong tersebut yang paling sering menjadi suguhan wisata adalah Barong Ket, atau Barong Keket yang memiliki kostum dan tarian cukup lengkap."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

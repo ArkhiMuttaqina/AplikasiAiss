@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tari">
+    <ImageView
+        android:layout_width="490dp"
+        android:layout_height="855dp"
+        android:background="@mipmap/bg_tari"
+        android:scaleType="center"/>
+
+    <RelativeLayout
+        android:layout_width="356dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="180dp"
+        >
+        <ImageButton
+            android:id="@+id/guel"
+            android:layout_width="176dp"
+            android:layout_height="233dp"
+            android:hapticFeedbackEnabled="true"
+            android:background="@mipmap/guel" />
+        <ImageButton
+            android:id="@+id/topeng"
+            android:layout_width="222dp"
+            android:layout_height="233dp"
+            android:layout_marginLeft="176dp"
+            android:hapticFeedbackEnabled="true"
+            android:background="@mipmap/barong" />
+        <ImageButton
+            android:id="@+id/barong"
+            android:layout_width="176dp"
+            android:layout_height="233dp"
+            android:layout_marginTop="222dp"
+            android:hapticFeedbackEnabled="true"
+            android:background="@mipmap/topeng" />
+        <ImageButton
+            android:id="@+id/inai"
+            android:layout_width="222dp"
+            android:hapticFeedbackEnabled="true"
+            android:layout_height="233dp"
+            android:layout_marginTop="222dp"
+            android:layout_marginLeft="176dp"
+            android:background="@mipmap/inai" />
+
+    </RelativeLayout>
+</RelativeLayout>

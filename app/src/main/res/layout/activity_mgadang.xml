@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mgadang"
+    android:background="@mipmap/m_bgadat">
+
+    <ImageView
+        android:layout_width="391dp"
+        android:layout_height="289dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/m_gadang" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="310dp"
+        android:text="Rumah Adat Gadang"
+        android:textColor="@color/grey_font"
+        android:textSize="30dp" />
+    <ScrollView
+        android:layout_width="460dp"
+        android:layout_height="290dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="20dp"
+        android:scrollbarSize="1dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rumah  adat  Sumatra  Barat  dinamakan  rumah gadang.   Rumah   ini   berbentuk   persegi   panjang   dan   membesar    ke    atas,    seperti    trapesium    terbalik.    Atapnya  melengkung  tajam  dengan  bagian  meruncing  menyerupai  tanduk  kerbau  pada  ujung  kiri  dan  kanan.  Rumah  gadang  berbentuk  panggung  dan  memiliki  satu  buah  tangga  yang  terletak  pada  bagian  depan.  Bagian  tiang, dinding, dan lantai terbuat dari papan kayu dan bambu, sedangkan bagian atap terbuat dari ijuk"
+                android:textColor="@color/grey_font"
+                android:textSize="17dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
