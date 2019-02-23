@@ -10,39 +10,39 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class DanaActivity extends AppCompatActivity {
-    String[] Dana;
+    private String[] Dana;
     private ArrayList<Integer> ind_tag;
-    ImageButton cvRandomDana;
-    TextView tvResultDana;
-    TextView tv_cvRandomDana;
-    int i=0;
+    private ImageButton cvRandomDana;
+    private TextView tvResultDana;
+    private int i=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dana);
-        cvRandomDana = findViewById(R.id.cvDana);
-        tv_cvRandomDana = findViewById(R.id.tv_cvRandomDana);
+        cvRandomDana = findViewById(R.id.cvRandomDana);
         tvResultDana = findViewById(R.id.tvResultDana);
         initData();
         cvRandomDana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(i<Dana.length) {
-                    tv_cvRandomDana.setText("Ambil");
                     tvResultDana.setText(Dana[ind_tag.get(i)]);
                     i++;
                 }
 
                 if(i==Dana.length){
-                    tv_cvRandomDana.setText("Kocok");
+                    i++;
+                }
 
-                    tvResultDana.setText("");
-                    for (int id = 0; id<Dana.length; id++){
+                if(i>Dana.length){
+
+                    tvResultDana.setText("Kartu habis. Saatnya untuk mengocok ulang kartu");
+
+                    for (String Dana : Dana) {
                         Collections.shuffle(ind_tag);
                     }
 
                     i=0;
-
                 }
             }
         });

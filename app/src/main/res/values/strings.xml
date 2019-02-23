@@ -18,6 +18,7 @@
         <item>Bayar denda keterlambatan membayar hutang bank, sebesar 8.000 rupiah</item>
         <item>Maju 2 petak</item>
     </string-array>
+
     <string-array name="ArrayDana">
         <item>Terima warisan 5.000 rupiah</item>
         <item>Bayar denda Rp 5.000 atau mengambil kartu kesempatan</item>
@@ -36,6 +37,7 @@
         <item>Merokok ditempat umum, bayar denda di bank Rp 3.000</item>
         <item>Anda boleh menjual saham anda saat ini.</item>
     </string-array>
+
     <string-array name="ArrayKuis">
         <item>Salah satu tarian daerah dari betawi adalah ?
             a. Tari piring betawi
@@ -55,7 +57,7 @@
         <item>Rumah baloy adalah rumah adat kalimantan utara. Bagaimanakah bentuk rumah baloy ? a. atapnya berbentuk melengkung terbuat dari kayu jati b. Berbentuk panggung dan terbuat dari kayu ulin. Jawaban B</item>
         <item>Rumah adat dari Provinsi DKI Jakarta disebut dengan rumah kebaya. Rumah ini adalah ciri kas dari suku ? a. Banten b. Betawi. Jawaban  B</item>
         <item>Sebutkan bagian-bagian rumah dari rumah adat walewangko sulawesi utara? a. Lesar, sekey, pores b. Mina, jintu, sedah. Jawaban A</item>
-        <item>Tari guel adalah tarian adat yang berasal dari ? a. Aceh b. Padang. Jawaban A</item>
+        <item>Tari guel adalah tarian adat yang beras al dari ? a. Aceh b. Padang. Jawaban A</item>
         <item>Tari barong merupakan tarian peninggalan kebudayaan pra Hindu. Kata barong berasal dari kata bahruang yang dianggap sebagai ? a. Hewan pelindung b. Hewan perusak. Jawaban A</item>
 
     </string-array>
@@ -67,4 +69,17 @@
     <string name="tarian_guel">Tarian Guel</string>
     <string name="Aramba">Alat Musik Aramba (Arumba) merupakan bagian dari alat musik tradisional Sumatera Utara (Sumut), tepatnya dari kabupaten Nias. Alat ini dipakai oleh warga setempat dalam acara kesenian daerah, seperti penikahan. Dimainkan oleh satu orang, alat musik Aramba termasuk jenis musik alat musik ideofon. Bagi warga Nias, alat musik ini diyakini mempunyai nilai keramat alias mistis.</string>
     <string name="alat_musik_aramba">Alat Musik Aramba</string>
+    <string name="AdatKabaya">Rumah adat Provinsi DKI Jakarta disebut dengan rumah kebaya. Rumah ini adalah ciri khas suku Betawi. Atap rumah kebaya berbentuk pelana yang dilipat. Jika dilihat dari samping, atapnya seperti lipatan kebaya. Di teras rumah biasanya tersedia meja dan kursi untuk menerima tamu atau minum teh di sore hari bersama keluarga. Rumah kebaya biasa dicat dengan warna-warna cerah</string>
+    <string name="Kolintang">Kolintang adalah salah satu alat musik tradisional masyarakat Minahasa di Sulawesi Utara. Alat musik ini terbuat dari kayu khusus yang disusun dan dimainkan dengan cara dipukul. Sekilas Kolintang ini hampir sama dengan alat musik Gambang dari Jawa, namun yang membedakan adalah nada yang dihasilkan lebih lengkap dan cara memainkannya sedikit berbeda.</string>
+    <string name="madura">Suku Madura, adalah salah satu suku di provinsi Jawa Timur, yang mendiami pulau Madura dan pulau-pulau kecil sekitarnya. Populasi suku Madura termasuk yang ke-3 terbesar di Indonesia, diperkirakan lebih dari 6.800.000 orang. Orang Madura tersebar di pulau Madura dan pulau-pulau kecil sekitarnya, yaitu pulau Gili Raja, Sapudi, Raas dan Kangean. Penyebaran orang Madura tidak hanya di Jawa Timur saja, tapi juga terdapat di provinsi lain bahkan di luar pulau Jawa seperti di Kalimantan bahkan sampai ke Malaysia. Wilayah pemukiman orang Madura, terdiri dari 4 kabupaten, yaitu: Bangkalan Sampang Pamekasan Sumenep</string>
+    <string name="salasoo">Rumah adat Riau dinamakan selaso jatuh kembarkarena memiliki selasar yang lebih rendah dibandingkan dengan ruang tengah dan berbentuk sama pada sisi kiri dan kanan tangga masuk. Rumah adat ini tidak digunakan sebagai rumah tinggal, tetapi digunakan sebagai balai pertemuan adat. Bagian atap rumah dihiasi dengan ukiran etnik Melayu serupa flora dan fauna. Bagian tiang, dinding, dan lantai terbuat dari kayu, sedangkan bagian atap terbuat dari rumbia.</string>
+    <string name="adatsalaso">Rumah Adat selaso jatuh kembar</string>
+    <string name="saluang">Alat musik Saluang merupakan alat musik tradisional Indonesia. Lebih lanjut, Saluang dikenal sebagai alat musik tradisional khas Minangkabau, Sumatera Barat (Sumbar) yang memiliki banyak nama – nama alat musik tradisional. Terbuat dari bambu tipis atau talang, Saluang adalah salah satu kekayaan budaya Indonesia dalam bidang kesenian musik tradisional. Beberapa acara kesenian daerah masih memakainya. Bukan sekedar mengenalkan alat musik Saluang, namun lebih kepada upaya menjaga budaya lokal agar tidak pupus di telan zaman.</string>
+    <string name="alat_musik_saluang">Alat Musik Saluang</string>
+    <string name="suku_sunda">Suku Sunda</string>
+    <string name="sund">Suku Sunda adalah kelompok etnis yang berasal dari bagian barat pulau Jawa, Indonesia, dengan istilah Tatar Pasundan yang mencakup wilayah administrasi provinsi Jawa Barat, Banten, Jakarta, Lampung dan wilayah barat Jawa Tengah (Banyumasan). Suku Sunda merupakan etnis kedua terbesar di Indonesia. Sekurang-kurangnya 15,2% penduduk Indonesia merupakan orang Sunda. Mayoritas orang Sunda beragama Islam, akan tetapi ada juga sebagian kecil yang beragama kristen, Hindu, dan Sunda Wiwitan/Jati Sunda. Agama Sunda Wiwitan masih bertahan di beberapa komunitas pedesaan suku Sunda, seperti di Kuningan dan masyarakat suku Baduy di Lebak Banten yang berkerabat dekat dan dapat dikategorikan sebagai suku Sunda. Orang Sunda dikenal memiliki sifat optimistis, ramah, sopan, dan riang.[2] Orang Portugis mencatat dalam Suma Oriental bahwa orang sunda bersifat jujur dan pemberani. Orang sunda juga adalah yang pertama kali melakukan hubungan diplomatik secara sejajar dengan bangsa lain.</string>
+    <string name="todo">TODO</string>
+    <string name="alat_musik_gambus">Alat Musik Gambus</string>
+    <string name="alat_musik_kolintang">Alat Musik Kolintang</string>
+    <string name="tpeng">Tari topeng merupakan tarian tradisional yang berasal dari Cirebon, Jawa Barat. Tarian ini dipentaskan oleh penari-penari yang memakai topeng. Keunikan dari tarian ini adalah topeng yang dikenakan mempunyai karakter yang berbeda-beda. Penari yang mementaskan Tari Topeng disebut Dalang. Karena setiap penari memerankan karakter pada topeng yang dikenakan. Tarian ini dapat dipentaskan oleh satu orang penari dan juga dapat dipentaskan oleh beberapa orang penari.</string>
 </resources>

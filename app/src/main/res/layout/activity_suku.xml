@@ -6,44 +6,51 @@
     android:layout_height="match_parent"
     tools:context=".suku">
     <ImageView
-        android:layout_width="490dp"
-        android:layout_height="855dp"
-        android:background="@mipmap/bg_suku"
-        android:scaleType="centerCrop"/>
+        android:layout_width="720dp"
+        android:layout_height="1280dp"
+        android:background="@drawable/bgsuku"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo" />
 
     <RelativeLayout
-        android:layout_width="356dp"
-        android:layout_height="500dp"
-        android:layout_marginTop="180dp"
+        android:layout_width="350dp"
+        android:layout_height="460dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="250dp"
         >
+
         <ImageButton
             android:id="@+id/jawa"
             android:layout_width="176dp"
-            android:hapticFeedbackEnabled="true"
             android:layout_height="233dp"
-            android:background="@mipmap/jawa" />
+            android:hapticFeedbackEnabled="true"
+            android:background="@drawable/jawa"
+            android:contentDescription="@string/todo" />
         <ImageButton
             android:id="@+id/baduy"
-            android:layout_width="222dp"
+            android:layout_width="176dp"
             android:layout_height="233dp"
             android:hapticFeedbackEnabled="true"
-            android:layout_marginLeft="176dp"
-            android:background="@mipmap/baudy" />
+            android:layout_marginStart="176dp"
+            android:background="@drawable/baudy"
+            android:contentDescription="@string/todo" />
         <ImageButton
             android:id="@+id/madura"
             android:layout_width="176dp"
             android:layout_height="233dp"
             android:hapticFeedbackEnabled="true"
-            android:layout_marginTop="222dp"
-            android:background="@mipmap/madura" />
+            android:layout_marginTop="230dp"
+            android:background="@drawable/madura"
+            android:contentDescription="@string/todo" />
         <ImageButton
             android:id="@+id/sunda"
-            android:layout_width="222dp"
+            android:layout_width="176dp"
             android:layout_height="233dp"
             android:hapticFeedbackEnabled="true"
-            android:layout_marginTop="222dp"
-            android:layout_marginLeft="176dp"
-            android:background="@mipmap/sunda" />
+            android:layout_marginTop="230dp"
+            android:layout_marginStart="174dp"
+            android:background="@drawable/sunda"
+            android:contentDescription="@string/todo" />
     </RelativeLayout>
 
 

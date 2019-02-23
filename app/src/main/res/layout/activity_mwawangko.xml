@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mwawangko"
-    android:background="@mipmap/m_bgadat">
+    android:background="@drawable/m_bgadat">
 
     <ImageView
         android:layout_width="391dp"
@@ -13,7 +13,8 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-        android:background="@mipmap/m_wawangko" />
+        android:background="@drawable/m_wawangko"
+        android:contentDescription="TODO" />
 
     <TextView
         android:layout_width="370dp"
@@ -22,8 +23,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginTop="310dp"
         android:text="Rumah Adat Walewangko"
-        android:textColor="@color/grey_font"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
     <ScrollView
         android:layout_width="460dp"
         android:layout_height="290dp"
@@ -33,14 +33,13 @@
         android:scrollbarSize="1dp">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Suku   Minahasa   di   Sulawesi   Utara   menempati   rumah  adat  walewangko  atau  rumah  pewaris.  Rumah  ini  berbentuk  panggung  dengan  tangga  di  sisi  kiri  dan  kanan  pintu  masuk.  Bagian  bawahnya  dimanfaatkan  untuk  menyimpan  hasil  pekerjaan  sehari-hari.  Bagian  rumah ini dibagi menjadi tiga, yaitu lesar atau beranda, sekey  untuk  menerima  tamu,  dan  pores  yang  dipakai  keluarga untuk beraktivitas."
-                android:textColor="@color/grey_font"
-                android:textSize="17dp" />
+                android:textSize="17sp" />
         </RelativeLayout>
     </ScrollView>
 

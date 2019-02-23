@@ -7,7 +7,10 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class WawasanActivity extends AppCompatActivity {
-    ImageButton menuAlat,menuTari,menuSuku,menuRumah;
+    private ImageButton menuAlat;
+    private ImageButton menuTari;
+    private ImageButton menuSuku;
+    private ImageButton menuRumah;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +25,7 @@ public class WawasanActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(WawasanActivity.this,Alat.class);
                 startActivity(goToX);
-               WawasanActivity.this.onDestroy();
+               WawasanActivity.this.onPause();
             }
         });
 
@@ -31,7 +34,7 @@ public class WawasanActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(WawasanActivity.this,tari.class);
                 startActivity(goToX);
-                WawasanActivity.this.onDestroy();
+                WawasanActivity.this.onPause();
             }
         });
         menuSuku.setOnClickListener(new View.OnClickListener() {
@@ -39,7 +42,7 @@ public class WawasanActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(WawasanActivity.this,suku.class);
                 startActivity(goToX);
-                WawasanActivity.this.onDestroy();
+                WawasanActivity.this.onPause();
             }
         });
         menuRumah.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +50,7 @@ public class WawasanActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(WawasanActivity.this,rumah.class);
                 startActivity(goToX);
-                WawasanActivity.this.onDestroy();
+                WawasanActivity.this.onPause();
             }
         });
     }

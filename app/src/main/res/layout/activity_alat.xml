@@ -7,44 +7,52 @@
     tools:context=".Alat">
 
     <ImageView
-        android:layout_width="490dp"
-        android:layout_height="855dp"
-        android:background="@mipmap/bg_alat"
-        android:scaleType="centerCrop"/>
+        android:layout_width="720dp"
+        android:layout_height="1280dp"
+        android:background="@drawable/bgalat"
+        android:contentDescription="@string/todo" />
 
         <RelativeLayout
             android:layout_width="356dp"
-            android:layout_height="500dp"
-            android:layout_marginTop="180dp"
+            android:layout_height="460dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="250dp"
             >
+
             <ImageButton
+
                 android:id="@+id/kolintang"
                 android:layout_width="176dp"
-                android:hapticFeedbackEnabled="true"
                 android:layout_height="233dp"
-                android:background="@mipmap/kolintang" />
+                android:background="@drawable/kolintang"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/todo"
+                android:hapticFeedbackEnabled="true" />
             <ImageButton
                 android:id="@+id/aramba"
-                android:layout_width="222dp"
+                android:layout_width="176dp"
                 android:layout_height="233dp"
                 android:hapticFeedbackEnabled="true"
-                android:layout_marginLeft="176dp"
-                android:background="@mipmap/aramba" />
+                android:layout_marginStart="174dp"
+                android:background="@drawable/aramba"
+                android:contentDescription="@string/todo" />
             <ImageButton
                 android:id="@+id/gambus"
                 android:layout_width="176dp"
                 android:layout_height="233dp"
                 android:hapticFeedbackEnabled="true"
-                android:layout_marginTop="222dp"
-                android:background="@mipmap/gambus" />
+                android:layout_marginTop="230dp"
+                android:background="@drawable/gambus"
+                android:contentDescription="@string/todo" />
             <ImageButton
                 android:id="@+id/saluang"
-                android:layout_width="222dp"
+                android:layout_width="176dp"
                 android:layout_height="233dp"
                 android:hapticFeedbackEnabled="true"
-                android:layout_marginTop="222dp"
-                android:layout_marginLeft="176dp"
-                android:background="@mipmap/saluang" />
+                android:layout_marginTop="230dp"
+                android:layout_marginStart="174dp"
+                android:background="@drawable/saluang"
+                android:contentDescription="@string/todo" />
         </RelativeLayout>
 
 

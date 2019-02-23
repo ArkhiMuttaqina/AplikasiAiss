@@ -11,40 +11,40 @@ import java.util.Collections;
 
 public class KesempatanActivity extends AppCompatActivity {
 
-    String[] Kesempatan;
+    private String[] Kesempatan;
     private ArrayList<Integer> ind_tag;
-                ImageButton cvRandomKesempatan;
-                TextView tvResultKesempatan;
-                TextView tv_cvRandomKesempatan;
-                int i=0;
+                private ImageButton cvRandomKesempatan;
+                private TextView tvResultKesempatan;
+                private int i=0;
                 @Override
                 protected void onCreate(Bundle savedInstanceState) {
                     super.onCreate(savedInstanceState);
                     setContentView(R.layout.activity_kesempatan);
                     cvRandomKesempatan = findViewById(R.id.cvRandomKesempatan);
-                    tv_cvRandomKesempatan = findViewById(R.id.tv_cvRandomKesempatan);
                     tvResultKesempatan = findViewById(R.id.tvResultKesempatan);
                     initData();
                     cvRandomKesempatan.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
                             if(i<Kesempatan.length) {
-                                tv_cvRandomKesempatan.setText("Ambil");
                                 tvResultKesempatan.setText(Kesempatan[ind_tag.get(i)]);
                                 i++;
                             }
 
-                if(i==Kesempatan.length){
-                    tv_cvRandomKesempatan.setText("Kocok");
+                            if(i==Kesempatan.length){
+                                i++;
+                            }
 
-                    tvResultKesempatan.setText("");
-                    for (int id = 0; id<Kesempatan.length; id++){
-                            Collections.shuffle(ind_tag);
-                    }
+                            if(i>Kesempatan.length){
 
-                        i=0;
+                                tvResultKesempatan.setText("Kartu habis. Saatnya untuk mengocok ulang kartu");
 
-                }
+                                for (String Kesempatan : Kesempatan) {
+                                    Collections.shuffle(ind_tag);
+                                }
+
+                                i=0;
+                            }
 
 
             }

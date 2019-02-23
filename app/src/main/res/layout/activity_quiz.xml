@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bgkuis"
+    android:background="@drawable/bgkuis"
     tools:context=".QuizActivity">
 
     <ScrollView
         style="@android:style/Widget.DeviceDefault.Light.ScrollView"
         android:layout_width="360dp"
         android:layout_marginTop="56dp"
-        android:layout_height="670dp"
+        android:layout_height="470dp"
         android:scrollbarSize="1dp"
-        android:scrollbarStyle="outsideOverlay">
+        android:scrollbarStyle="outsideOverlay"
+        tools:targetApi="ice_cream_sandwich">
 
         <TextView
             android:id="@+id/tvResultKuis"
@@ -31,6 +32,6 @@
         android:layout_height="66dp"
         android:layout_marginTop="560dp"
         android:layout_marginLeft="112dp"
-        android:scaleType="fitXY"
-        android:background="@mipmap/buttonkuis" />
+        android:background="@drawable/buttonkuis"
+        android:contentDescription="TODO" />
 </RelativeLayout>

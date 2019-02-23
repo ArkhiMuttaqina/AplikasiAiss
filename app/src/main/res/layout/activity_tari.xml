@@ -5,45 +5,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".tari">
+
     <ImageView
-        android:layout_width="490dp"
-        android:layout_height="855dp"
-        android:background="@mipmap/bg_tari"
-        android:scaleType="center"/>
+        android:layout_width="720dp"
+        android:layout_height="1280dp"
+        android:background="@drawable/bgtari"
+        android:contentDescription="@string/todo"
+        android:scaleType="center" />
 
     <RelativeLayout
-        android:layout_width="356dp"
-        android:layout_height="500dp"
-        android:layout_marginTop="180dp"
+        android:layout_width="350dp"
+        android:layout_height="460dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="250dp"
         >
         <ImageButton
             android:id="@+id/guel"
             android:layout_width="176dp"
             android:layout_height="233dp"
             android:hapticFeedbackEnabled="true"
-            android:background="@mipmap/guel" />
-        <ImageButton
-            android:id="@+id/topeng"
-            android:layout_width="222dp"
-            android:layout_height="233dp"
-            android:layout_marginLeft="176dp"
-            android:hapticFeedbackEnabled="true"
-            android:background="@mipmap/barong" />
+            android:background="@drawable/guel"
+            android:contentDescription="@string/todo" />
         <ImageButton
             android:id="@+id/barong"
             android:layout_width="176dp"
             android:layout_height="233dp"
-            android:layout_marginTop="222dp"
             android:hapticFeedbackEnabled="true"
-            android:background="@mipmap/topeng" />
+            android:layout_marginStart="174dp"
+            android:background="@drawable/barong"
+            android:contentDescription="@string/todo" />
+        <ImageButton
+            android:id="@+id/topeng"
+            android:layout_width="176dp"
+            android:layout_height="233dp"
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/topeng"
+            android:contentDescription="TODO" />
+
         <ImageButton
             android:id="@+id/inai"
-            android:layout_width="222dp"
-            android:hapticFeedbackEnabled="true"
+            android:layout_width="176dp"
             android:layout_height="233dp"
-            android:layout_marginTop="222dp"
-            android:layout_marginLeft="176dp"
-            android:background="@mipmap/inai" />
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginTop="230dp"
+            android:layout_marginStart="174dp"
+            android:background="@drawable/inai"
+            android:contentDescription="TODO"
+ />
 
     </RelativeLayout>
 </RelativeLayout>

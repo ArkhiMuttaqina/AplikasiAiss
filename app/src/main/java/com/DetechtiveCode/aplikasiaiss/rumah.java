@@ -7,7 +7,10 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class rumah extends AppCompatActivity {
-    ImageButton waleng, kebaya, gadang, salaso;
+    private ImageButton waleng;
+    private ImageButton kebaya;
+    private ImageButton gadang;
+    private ImageButton salaso;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +25,7 @@ public class rumah extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(rumah.this,mwawangko.class);
                 startActivity(goToX);
-                rumah.this.onDestroy();
+                rumah.this.onPause();
             }
         });
         kebaya.setOnClickListener(new View.OnClickListener() {
@@ -30,7 +33,7 @@ public class rumah extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(rumah.this,mkebaya.class);
                 startActivity(goToX);
-                rumah.this.onDestroy();
+                rumah.this.onPause();
             }
         });
         gadang.setOnClickListener(new View.OnClickListener() {
@@ -38,7 +41,7 @@ public class rumah extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(rumah.this,mgadang.class);
                 startActivity(goToX);
-                rumah.this.onDestroy();
+                rumah.this.onPause();
             }
         });
         salaso.setOnClickListener(new View.OnClickListener() {
@@ -46,7 +49,7 @@ public class rumah extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(rumah.this,msalaso.class);
                 startActivity(goToX);
-                rumah.this.onDestroy();
+                rumah.this.onPause();
             }
         });
     }

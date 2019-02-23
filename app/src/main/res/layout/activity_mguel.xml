@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mguel"
-    android:background="@mipmap/m_bgmusik">
+    android:background="@drawable/m_bgmusik">
     <ImageView
         android:layout_width="391dp"
         android:layout_height="289dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-        android:background="@mipmap/m_guelgayo" />
+        android:background="@drawable/m_guelgayo"
+        android:contentDescription="TODO" />
 
     <TextView
         android:layout_width="300dp"

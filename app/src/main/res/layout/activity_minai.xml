@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".minai"
-    android:background="@mipmap/m_bgmusik">
+    android:background="@drawable/m_bgmusik">
 
     <ImageView
         android:layout_width="391dp"
@@ -13,7 +13,8 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-        android:background="@mipmap/m_inai" />
+        android:background="@drawable/m_inai"
+        android:contentDescription="TODO" />
 
     <TextView
         android:layout_width="300dp"
@@ -23,7 +24,7 @@
         android:layout_marginTop="310dp"
         android:text="Tarian Topeng"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
     <ScrollView
         android:layout_width="460dp"
         android:layout_height="290dp"
@@ -33,7 +34,7 @@
         android:scrollbarSize="1dp">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:layout_width="match_parent"
@@ -44,7 +45,7 @@ Tarian Inai biasanya dimainkan pada malam hari, tepatnya setelah Shalat Isya. Ta
 
  "
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="17dp" />
+                android:textSize="17sp" />
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

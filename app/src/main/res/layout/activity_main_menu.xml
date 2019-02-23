@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainMenuActivity">
 
     <ImageView
@@ -15,7 +14,8 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:scaleType="centerCrop"
-        android:src="@mipmap/bgutama" />
+        android:src="@drawable/bgutama"
+        android:contentDescription="TODO" />
 
     <RelativeLayout
         android:layout_width="353dp"
@@ -29,37 +29,37 @@
 
         <ImageButton
             android:id="@+id/cvQuiz"
-            android:layout_width="286dp"
+            android:layout_width="176dp"
             android:layout_height="231dp"
             android:layout_marginRight="170dp"
-            android:background="@mipmap/kuis"
-            android:scaleType="centerCrop" />
+            android:background="@drawable/kuis"
+            android:contentDescription="TODO" />
 
         <ImageButton
             android:id="@+id/cvWawasan"
-            android:layout_width="286dp"
+            android:layout_width="176dp"
             android:layout_height="231dp"
             android:layout_marginTop="371dp"
             android:layout_marginLeft="170dp"
-            android:background="@mipmap/wawasan"
-            android:scaleType="centerCrop" />
+            android:background="@drawable/wawasan"
+            android:contentDescription="TODO" />
 
         <ImageButton
             android:id="@+id/cvKesempatan"
-            android:layout_width="286dp"
+            android:layout_width="176dp"
             android:layout_height="231dp"
             android:layout_marginTop="371dp"
             android:layout_marginRight="170dp"
-            android:background="@mipmap/kesem"
-            android:scaleType="centerCrop" />
+            android:background="@drawable/kesempatan"
+            android:contentDescription="TODO" />
 
         <ImageButton
             android:id="@+id/cvDana"
-            android:layout_width="286dp"
+            android:layout_width="176dp"
             android:layout_height="231dp"
             android:layout_marginLeft="170dp"
-            android:background="@mipmap/dana_umum"
-            android:scaleType="centerCrop" />
+            android:background="@drawable/dana_umum"
+            android:contentDescription="TODO" />
     </RelativeLayout>
 
 

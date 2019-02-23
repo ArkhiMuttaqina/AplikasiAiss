@@ -7,7 +7,10 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class suku extends AppCompatActivity {
-    ImageButton jawa, baduy, madura, sunda;
+    private ImageButton jawa;
+    private ImageButton baduy;
+    private ImageButton madura;
+    private ImageButton sunda;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +25,7 @@ public class suku extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(suku.this,mjawa.class);
                 startActivity(goToX);
-                suku.this.onDestroy();
+                suku.this.onPause();
             }
         });
         baduy.setOnClickListener(new View.OnClickListener() {
@@ -30,7 +33,7 @@ public class suku extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(suku.this,mbaduy.class);
                 startActivity(goToX);
-                suku.this.onDestroy();
+                suku.this.onPause();
             }
         });
         madura.setOnClickListener(new View.OnClickListener() {
@@ -38,7 +41,7 @@ public class suku extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(suku.this,mmadura.class);
                 startActivity(goToX);
-                suku.this.onDestroy();
+                suku.this.onPause();
             }
         });
         sunda.setOnClickListener(new View.OnClickListener() {
@@ -46,7 +49,7 @@ public class suku extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(suku.this,msunda.class);
                 startActivity(goToX);
-                suku.this.onDestroy();
+                suku.this.onPause();
             }
         });
     }

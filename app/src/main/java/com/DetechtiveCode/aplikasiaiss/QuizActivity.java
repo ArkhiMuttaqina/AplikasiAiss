@@ -11,11 +11,12 @@ import java.util.Collections;
 
 public class QuizActivity extends AppCompatActivity {
 
-    TextView tvKuis;
-    ImageButton btnKuis;
-    String[] pertanyaan;
-    private ArrayList<Integer> urutan = new ArrayList<>();
-    int i=0;
+    private TextView tvKuis;
+    private ArrayList<Integer> ind_tag;
+    private ImageButton btnKuis;
+    private String[] pertanyaan;
+    private final ArrayList<Integer> urutan = new ArrayList<>();
+    private int i=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,14 +29,26 @@ public class QuizActivity extends AppCompatActivity {
         btnKuis.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                if(i>pertanyaan.length){
+                if(i<pertanyaan.length) {
                     tvKuis.setText(pertanyaan[urutan.get(i)]);
                     i++;
                 }
+
                 if(i==pertanyaan.length){
-                    Collections.shuffle(urutan);
+                    i++;
+                }
+
+                if(i>pertanyaan.length){
+
+                    tvKuis.setText("Kartu habis. Saatnya untuk mengocok ulang kartu");
+
+                    for (String pertanyaan : pertanyaan) {
+                        Collections.shuffle(urutan);
+                    }
+
                     i=0;
                 }
+
             }
         });
 

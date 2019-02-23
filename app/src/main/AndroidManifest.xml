@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".splashok"></activity>
         <activity android:name=".mgadang" />
         <activity android:name=".msalaso" />
         <activity android:name=".mkebaya" />
@@ -30,14 +29,14 @@
         <activity android:name=".suku" />
         <activity android:name=".tari" />
         <activity android:name=".Alat" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".ViewPagerActivity"></activity>
         <activity android:name=".MainMenuActivity" />
         <activity android:name=".KesempatanActivity" />
         <activity android:name=".DanaActivity" />

@@ -4,26 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bgdaum"
+    android:background="@drawable/bgdaum"
     tools:context=".DanaActivity">
     <ScrollView
         style="@android:style/Widget.DeviceDefault.Light.ScrollView"
         android:layout_width="360dp"
         android:layout_marginTop="56dp"
-        android:layout_height="670dp"
-        android:scrollbarStyle="outsideOverlay">
+        android:layout_height="470dp"
+        android:scrollbarSize="1dp"
+        android:scrollbarStyle="outsideOverlay"
+        tools:targetApi="ice_cream_sandwich">
 
         <TextView
             android:layout_width="360dp"
-            android:layout_height="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textSize="28sp"
+            android:textColor="@color/colorPrimaryDark"
             android:id="@+id/tvResultDana" />
     </ScrollView>
-
-    <TextView
-        android:id="@+id/tv_cvRandomDana"
-        android:layout_marginTop="500dp"
-        android:layout_width="360dp"
-        android:layout_height="70dp" />
     <ImageButton
         android:id="@+id/cvRandomDana"
         android:layout_width="143dp"
@@ -31,5 +31,6 @@
         android:layout_marginTop="560dp"
         android:layout_marginLeft="112dp"
         android:scaleType="fitXY"
-        android:background="@mipmap/button_daum" />
+        android:background="@drawable/buttondaum"
+        android:contentDescription="TODO" />
 </RelativeLayout>

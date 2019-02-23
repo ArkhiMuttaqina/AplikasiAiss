@@ -7,7 +7,10 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class Alat extends AppCompatActivity {
-    ImageButton kolintang, gambus, aramba, saluang;
+    private ImageButton kolintang;
+    private ImageButton gambus;
+    private ImageButton aramba;
+    private ImageButton saluang;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +26,7 @@ public class Alat extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(Alat.this,mkolintang.class);
                 startActivity(goToX);
-                Alat.this.onDestroy();
+                Alat.this.onPause();
             }
         });
         gambus.setOnClickListener(new View.OnClickListener() {
@@ -31,7 +34,7 @@ public class Alat extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(Alat.this,mgambus.class);
                 startActivity(goToX);
-                Alat.this.onDestroy();
+                Alat.this.onPause();
             }
         });
         aramba.setOnClickListener(new View.OnClickListener() {
@@ -39,7 +42,7 @@ public class Alat extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(Alat.this,maramba.class);
                 startActivity(goToX);
-                Alat.this.onDestroy();
+                Alat.this.onPause();
             }
         });
         saluang.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +50,7 @@ public class Alat extends AppCompatActivity {
             public void onClick(View v) {
                 Intent goToX = new Intent(Alat.this,msaluang.class);
                 startActivity(goToX);
-                Alat.this.onDestroy();
+                Alat.this.onPause();
             }
         });
     }

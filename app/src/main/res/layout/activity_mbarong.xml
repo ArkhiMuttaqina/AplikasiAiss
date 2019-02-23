@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mbarong"
-    android:background="@mipmap/m_bgmusik">
+    android:background="@drawable/m_bgmusik">
     <ImageView
         android:layout_width="391dp"
         android:layout_height="289dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-        android:background="@mipmap/m_barong" />
+        android:background="@drawable/m_barong"
+        android:contentDescription="TODO" />
 
     <TextView
         android:layout_width="300dp"
@@ -22,7 +23,7 @@
         android:layout_marginTop="310dp"
         android:text="Tarian Barong"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="30dp"/>
+        android:textSize="30sp"/>
     <ScrollView
         android:layout_width="460dp"
         android:layout_height="290dp"
@@ -32,7 +33,7 @@
         android:scrollbarSize="1dp">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:layout_width="match_parent"
@@ -41,7 +42,7 @@
 
 Ada beberapa jenis Tari Barong yang biasa ditampilkan di Pulau Bali, di antaranya Barong Ket, Barong Bangkal (babi), Barong Gajah, Barong Asu (anjing), Barong Brutuk, serta Barong-barongan. Namun, di antara jenis-jenis Barong tersebut yang paling sering menjadi suguhan wisata adalah Barong Ket, atau Barong Keket yang memiliki kostum dan tarian cukup lengkap."
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="17dp" />
+                android:textSize="17sp" />
         </RelativeLayout>
     </ScrollView>
 

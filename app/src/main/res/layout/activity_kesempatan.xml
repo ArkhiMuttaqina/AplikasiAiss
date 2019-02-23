@@ -4,26 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bgkesem"
+    android:background="@drawable/bgkesem"
     tools:context=".KesempatanActivity">
 
     <ScrollView
         style="@android:style/Widget.DeviceDefault.Light.ScrollView"
         android:layout_width="360dp"
         android:layout_marginTop="56dp"
-        android:layout_height="670dp"
-        android:scrollbarStyle="outsideOverlay"/>
+        android:layout_height="470dp"
+        android:scrollbarStyle="outsideOverlay"
+        tools:targetApi="ice_cream_sandwich" />
         <TextView
         android:id="@+id/tvResultKesempatan"
-        android:layout_width="360dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="20dp" />
-    <TextView
-        android:id="@+id/tv_cvRandomKesempatan"
-        android:layout_width="360dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="450dp"
-        android:fontFamily="monospace" />
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:padding="10dp"
+            android:textSize="28sp"
+            android:textColor="@color/colorPrimaryDark"
+            />
     <ImageButton
         android:id="@+id/cvRandomKesempatan"
         android:layout_width="143dp"
@@ -31,5 +30,6 @@
         android:layout_marginTop="560dp"
         android:layout_marginLeft="112dp"
         android:scaleType="fitXY"
-        android:background="@mipmap/buttonkesem" />
+        android:background="@drawable/buttonkesem"
+        android:contentDescription="TODO" />
 </RelativeLayout>

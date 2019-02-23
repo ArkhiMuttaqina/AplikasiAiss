@@ -5,24 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".msaluang"
-    android:background="@mipmap/m_bgalat">
+    android:background="@drawable/m_bgalat">
     <ImageView
         android:layout_width="391dp"
         android:layout_height="289dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-        android:background="@mipmap/m_saluang" />
+        android:background="@drawable/m_saluang"
+        android:contentDescription="TODO" />
 
     <TextView
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="90dp"
         android:layout_marginTop="310dp"
-        android:text="Alat Musik Saluang"
+        android:text="@string/alat_musik_saluang"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
     <ScrollView
         android:layout_width="460dp"
         android:layout_height="290dp"
@@ -32,17 +33,14 @@
         android:scrollbarSize="1dp">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Alat musik Saluang merupakan alat musik tradisional Indonesia. Lebih lanjut, Saluang dikenal sebagai alat musik tradisional khas Minangkabau, Sumatera Barat (Sumbar) yang memiliki banyak nama – nama alat musik tradisional.
-
-Terbuat dari bambu tipis atau talang, Saluang adalah salah satu kekayaan budaya Indonesia dalam bidang kesenian musik tradisional. Beberapa acara kesenian daerah masih memakainya. Bukan sekedar mengenalkan alat musik Saluang, namun lebih kepada upaya menjaga budaya lokal agar tidak pupus di telan zaman."
+                android:text="@string/saluang"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="17dp" />
+                android:textSize="17sp" />
         </RelativeLayout>
     </ScrollView>
-
 </RelativeLayout>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/m_bgsuku"
+    android:background="@drawable/m_bgsuku"
     tools:context=".mbaduy">
 
     <ImageView
@@ -13,7 +14,8 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-        android:background="@mipmap/m_baduy" />
+        android:background="@drawable/m_baduy"
+        android:contentDescription="TODO" />
 
     <TextView
         android:layout_width="300dp"
@@ -23,8 +25,7 @@
         android:layout_marginTop="310dp"
         android:text="Suku Baduy"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="30dp"
-        android:shadowColor="@color/text_shadow"
+        android:textSize="30sp"
 />
     <ScrollView
         android:layout_width="460dp"
@@ -35,7 +36,7 @@
         android:scrollbarSize="1dp">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:layout_width="match_parent"
@@ -46,7 +47,7 @@ Nama Baduy terlesip diantara banyaknya suku yang ada di Indonesia. Kelompok etni
 
 Perbedaan yang paling mendasar dari kedua suku ini adalah dalam menjalankan pikukuh atau aturan adat saat pelaksanaannya. Jika Baduy Dalam masih memegang teguh adat dan menjalankan aturan adat dengan baik, sebaliknya tidak dengan saudaranya Baduy Luar."
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="17dp" />
+                android:textSize="17sp" />
         </RelativeLayout>
     </ScrollView>
 

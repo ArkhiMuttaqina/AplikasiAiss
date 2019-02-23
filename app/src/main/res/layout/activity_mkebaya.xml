@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mkebaya"
-    android:background="@mipmap/m_bgadat">
+    android:background="@drawable/m_bgadat">
 
     <ImageView
         android:layout_width="391dp"
@@ -13,7 +13,8 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-        android:background="@mipmap/m_kabaya" />
+        android:background="@drawable/m_kabaya"
+        android:contentDescription="TODO" />
 
     <TextView
         android:layout_width="370dp"
@@ -23,7 +24,7 @@
         android:layout_marginTop="310dp"
         android:text="Rumah Adat Kebaya"
         android:textColor="@color/grey_font"
-        android:textSize="30dp"
+        android:textSize="30sp"
 />
     <ScrollView
         android:layout_width="460dp"
@@ -34,14 +35,14 @@
         android:scrollbarSize="1dp">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Rumah adat Provinsi DKI Jakarta disebut dengan rumah kebaya. Rumah ini adalah ciri khas suku Betawi. Atap rumah kebaya berbentuk pelana yang dilipat. Jika dilihat  dari  samping,  atapnya  seperti  lipatan  kebaya.  Di teras rumah biasanya tersedia meja dan kursi untuk menerima  tamu  atau  minum  teh  di  sore  hari  bersama  keluarga. Rumah  kebaya  biasa  dicat  dengan  warna-warna cerah"
+                android:text="@string/AdatKabaya"
                 android:textColor="@color/grey_font"
-                android:textSize="17dp" />
+                android:textSize="17sp" />
         </RelativeLayout>
     </ScrollView>
 
