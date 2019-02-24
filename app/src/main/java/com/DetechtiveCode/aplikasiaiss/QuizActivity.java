@@ -2,6 +2,8 @@ package com.DetechtiveCode.aplikasiaiss;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Layout;
@@ -22,14 +24,15 @@ import java.util.Random;
 
 public class QuizActivity extends AppCompatActivity {
     RadioGroup mrgPilihanJawaban;
-    Button kusi,tutup;
+    ImageButton kusi,tutup;
     RadioButton mrbPilihanJawaban1, mrbPilihanJawaban2, mrbPilihanJawaban3;
-    private TextView tvKuis;
-    private String jawaban;
-    private SoalPilihanGanda pertanyaan = new SoalPilihanGanda();
-    private int pertanyaanlength = pertanyaan.pertanyaan.length;
+    public  TextView tvKuis;
+    public String jawaban;
+    public SoalPilihanGanda pertanyaan = new SoalPilihanGanda();
+    public int pertanyaanlength = pertanyaan.pertanyaan.length;
     Random r;
     Dialog Dialogku, Dialognya;
+
 
 
     @Override
@@ -42,26 +45,29 @@ public class QuizActivity extends AppCompatActivity {
         mrbPilihanJawaban2 = findViewById(R.id.rbPilihanJawaban2);
         mrbPilihanJawaban3 = findViewById(R.id.rbPilihanJawaban3);
         ImageButton btncekcek = findViewById(R.id.btncekcek);
+        ImageButton kusi = findViewById(R.id.kusi);
+        ImageButton tutup = findViewById(R.id.tutup);
         Dialogku = new Dialog(this);
+        cekJawaban();
         Dialognya = new Dialog(this);
         Dialognya.setContentView(R.layout.dialogslh);
         Dialogku.setContentView(R.layout.dialogbenar);
         tvKuis = findViewById(R.id.tvResultKuis);
         updatePertanyaan(r.nextInt(pertanyaanlength));
         ImageButton btnKuis = findViewById(R.id.btnKuis);
-        btnKuis.setOnClickListener(new View.OnClickListener() {
+        btncekcek.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 cekJawaban();
             }
 
         });
     }
 
-    private void cekJawaban(){
+    public void cekJawaban(){
         if(mrbPilihanJawaban1.isChecked()){ //jika radio button 1 diklik
             //jika text yang tertulis di radio button tsb = nilai dari var jawaban
-            if(mrbPilihanJawaban1.getText().toString().equals(jawaban)){
+            if(mrbPilihanJawaban1.getText()==(jawaban)){
                 Toast.makeText(this, "Jawaban Benar", Toast.LENGTH_SHORT).show(); //keluar notifikasi "Jawaban Benar"
                 kusi = Dialogku.findViewById(R.id.kusi);
                 kusi.setOnClickListener(new View.OnClickListener() {
@@ -72,7 +78,7 @@ public class QuizActivity extends AppCompatActivity {
                         startActivity(goToX);
                     }
                 });
-                Dialogku.getWindow();
+                Dialogku.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 Dialogku.show();
             }else{
                 Toast.makeText(this, "Jawaban Salah", Toast.LENGTH_SHORT).show();
@@ -80,17 +86,17 @@ public class QuizActivity extends AppCompatActivity {
                 tutup.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Dialogku.dismiss();
+                        Dialognya.dismiss();
                         Intent goToX = new Intent(QuizActivity.this,MainMenuActivity.class);
                         startActivity(goToX);
                     }
                 });
-                Dialogku.getWindow();
-                Dialogku.show();
+                Dialognya.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                Dialognya.show();
             }
         }else if(mrbPilihanJawaban2.isChecked()){
             //jika text yang tertulis di radio button tsb = nilai dari var jawaban
-            if(mrbPilihanJawaban2.getText().toString().equals(jawaban)){
+            if(mrbPilihanJawaban2.getText()==(jawaban)){
                 Toast.makeText(this, "Jawaban Benar", Toast.LENGTH_SHORT).show();
                 Dialogku.setContentView(R.layout.dialogbenar);
                 kusi = Dialogku.findViewById(R.id.kusi);
@@ -102,26 +108,25 @@ public class QuizActivity extends AppCompatActivity {
                         startActivity(goToX);
                     }
                 });
-                Dialogku.getWindow();
+                Dialogku.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 Dialogku.show();
             }else{
                 Toast.makeText(this, "Jawaban Salah", Toast.LENGTH_SHORT).show();
-                Dialogku.setContentView(R.layout.dialogbenar);
-                kusi = Dialogku.findViewById(R.id.kusi);
-                kusi.setOnClickListener(new View.OnClickListener() {
+                tutup = Dialognya.findViewById(R.id.tutup);
+                tutup.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Dialogku.dismiss();
+                        Dialognya.dismiss();
                         Intent goToX = new Intent(QuizActivity.this,MainMenuActivity.class);
                         startActivity(goToX);
                     }
                 });
-                Dialogku.getWindow();
-                Dialogku.show();
+                Dialognya.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                Dialognya.show();
             }
         }else if(mrbPilihanJawaban3.isChecked()){
             //jika text yang tertulis di radio button tsb = nilai dari var jawaban
-            if(mrbPilihanJawaban3.getText().toString().equals(jawaban)){
+            if(mrbPilihanJawaban3.getText()==(jawaban)){
                 Toast.makeText(this, "Jawaban Benar", Toast.LENGTH_SHORT).show();
                 Dialogku.setContentView(R.layout.dialogbenar);
                 kusi = Dialogku.findViewById(R.id.kusi);
@@ -133,10 +138,21 @@ public class QuizActivity extends AppCompatActivity {
                         startActivity(goToX);
                     }
                 });
-                Dialogku.getWindow();
+                Dialogku.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 Dialogku.show();
             }else{
                 Toast.makeText(this, "Jawaban Salah", Toast.LENGTH_SHORT).show();
+                tutup = Dialognya.findViewById(R.id.tutup);
+                tutup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Dialognya.dismiss();
+                        Intent goToX = new Intent(QuizActivity.this,MainMenuActivity.class);
+                        startActivity(goToX);
+                    }
+                });
+                Dialognya.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                Dialognya.show();
             }
         }else{
             Toast.makeText(this, "Silahkan pilih jawaban dulu!", Toast.LENGTH_SHORT).show();
