@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:scaleX="1.7"
+    android:scaleY="1.5"
+    android:background="@drawable/dialogbnr"
+    android:layout_gravity="center">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="invisible"
+        android:id="@+id/kusi"/>
+
+
+</RelativeLayout>
