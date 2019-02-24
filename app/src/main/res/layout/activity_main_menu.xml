@@ -11,11 +11,13 @@
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:contentDescription="TODO"
         android:scaleType="centerCrop"
-        android:src="@drawable/bgutama"
-        android:contentDescription="TODO" />
+        android:src="@drawable/bgutama" />
 
     <RelativeLayout
         android:layout_width="353dp"
@@ -23,7 +25,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="end"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="35dp"
         android:layout_marginTop="60dp"
         >
 
@@ -61,6 +63,16 @@
             android:background="@drawable/dana_umum"
             android:contentDescription="TODO" />
     </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Dibuat oleh DetechtiveCode 2019"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:id="@+id/yo"
+        android:layout_marginTop="680dp"
+        android:gravity="center"/>
 
 
 </RelativeLayout>
