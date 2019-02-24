@@ -9,8 +9,8 @@
     <ScrollView
         style="@android:style/Widget.DeviceDefault.Light.ScrollView"
         android:layout_width="360dp"
+        android:layout_height="280dp"
         android:layout_marginTop="56dp"
-        android:layout_height="470dp"
         android:scrollbarSize="1dp"
         android:scrollbarStyle="outsideOverlay"
         tools:targetApi="ice_cream_sandwich">
@@ -21,10 +21,41 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:padding="10dp"
+            android:text="Acak Saya Gih  :V"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="28sp"/>
+            android:textSize="15sp" />
 
     </ScrollView>
+
+    <RadioGroup
+        android:id="@+id/rgPilihanJawaban"
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="356dp">
+
+        <RadioButton
+            android:id="@+id/rbPilihanJawaban1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <RadioButton
+            android:id="@+id/rbPilihanJawaban3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="10sp"/>
+
+        <RadioButton
+            android:id="@+id/rbPilihanJawaban2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="10sp" />
+    </RadioGroup>
+
     <ImageButton
         android:id="@+id/btnKuis"
         android:layout_width="143dp"
@@ -35,6 +66,7 @@
         android:contentDescription="TODO" />
     <ImageButton
         android:id="@+id/btncekcek"
+        android:onClick="cekJawaban"
         android:layout_width="143dp"
         android:layout_height="66dp"
         android:layout_marginTop="655dp"
