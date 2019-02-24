@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/popoub"
+    android:layout_height="match_parent"
     android:background="@drawable/bgintro">
 
     <ImageView
         android:id="@+id/iv_icon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
         android:layout_marginTop="180dp"
         android:layout_marginBottom="5dp"
-        android:background="@drawable/intro3" />
+        android:contentDescription="TODO"
+        android:src="@drawable/intro3" />
 
     <ImageButton
         android:id="@+id/kuy"

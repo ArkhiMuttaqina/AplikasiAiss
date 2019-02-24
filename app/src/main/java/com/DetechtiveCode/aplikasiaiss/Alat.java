@@ -7,19 +7,15 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class Alat extends AppCompatActivity {
-    private ImageButton kolintang;
-    private ImageButton gambus;
-    private ImageButton aramba;
-    private ImageButton saluang;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alat);
-        kolintang = findViewById(R.id.kolintang);
-        gambus = findViewById(R.id.gambus);
-        aramba = findViewById(R.id.aramba);
-        saluang = findViewById(R.id.saluang);
+        ImageButton kolintang = findViewById(R.id.kolintang);
+        ImageButton gambus = findViewById(R.id.gambus);
+        ImageButton aramba = findViewById(R.id.aramba);
+        ImageButton saluang = findViewById(R.id.saluang);
 
         kolintang.setOnClickListener(new View.OnClickListener() {
             @Override

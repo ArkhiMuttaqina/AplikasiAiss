@@ -7,18 +7,14 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class WawasanActivity extends AppCompatActivity {
-    private ImageButton menuAlat;
-    private ImageButton menuTari;
-    private ImageButton menuSuku;
-    private ImageButton menuRumah;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wawasan);
-        menuAlat = findViewById(R.id.menuAlat);
-        menuTari = findViewById(R.id.menuTari);
-        menuSuku = findViewById(R.id.menuSuku);
-        menuRumah = findViewById(R.id.menuRumah);
+        ImageButton menuAlat = findViewById(R.id.menuAlat);
+        ImageButton menuTari = findViewById(R.id.menuTari);
+        ImageButton menuSuku = findViewById(R.id.menuSuku);
+        ImageButton menuRumah = findViewById(R.id.menuRumah);
 
         menuAlat.setOnClickListener(new View.OnClickListener() {
             @Override

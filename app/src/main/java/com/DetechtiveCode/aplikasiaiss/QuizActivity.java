@@ -13,7 +13,6 @@ public class QuizActivity extends AppCompatActivity {
 
     private TextView tvKuis;
     private ArrayList<Integer> ind_tag;
-    private ImageButton btnKuis;
     private String[] pertanyaan;
     private final ArrayList<Integer> urutan = new ArrayList<>();
     private int i=0;
@@ -24,7 +23,7 @@ public class QuizActivity extends AppCompatActivity {
         setContentView(R.layout.activity_quiz);
 
         tvKuis = findViewById(R.id.tvResultKuis);
-        btnKuis = findViewById(R.id.btnKuis);
+        ImageButton btnKuis = findViewById(R.id.btnKuis);
         initQuiz();
         btnKuis.setOnClickListener(new View.OnClickListener(){
             @Override

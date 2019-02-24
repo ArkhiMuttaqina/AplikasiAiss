@@ -12,14 +12,13 @@ import java.util.Collections;
 public class DanaActivity extends AppCompatActivity {
     private String[] Dana;
     private ArrayList<Integer> ind_tag;
-    private ImageButton cvRandomDana;
     private TextView tvResultDana;
     private int i=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dana);
-        cvRandomDana = findViewById(R.id.cvRandomDana);
+        ImageButton cvRandomDana = findViewById(R.id.cvRandomDana);
         tvResultDana = findViewById(R.id.tvResultDana);
         initData();
         cvRandomDana.setOnClickListener(new View.OnClickListener() {

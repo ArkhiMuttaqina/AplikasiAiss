@@ -7,18 +7,14 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class suku extends AppCompatActivity {
-    private ImageButton jawa;
-    private ImageButton baduy;
-    private ImageButton madura;
-    private ImageButton sunda;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_suku);
-        jawa = findViewById(R.id.jawa);
-        baduy = findViewById(R.id.baduy);
-        madura = findViewById(R.id.madura);
-        sunda = findViewById(R.id.sunda);
+        ImageButton jawa = findViewById(R.id.jawa);
+        ImageButton baduy = findViewById(R.id.baduy);
+        ImageButton madura = findViewById(R.id.madura);
+        ImageButton sunda = findViewById(R.id.sunda);
 
         jawa.setOnClickListener(new View.OnClickListener() {
             @Override

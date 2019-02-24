@@ -13,14 +13,13 @@ public class KesempatanActivity extends AppCompatActivity {
 
     private String[] Kesempatan;
     private ArrayList<Integer> ind_tag;
-                private ImageButton cvRandomKesempatan;
-                private TextView tvResultKesempatan;
+    private TextView tvResultKesempatan;
                 private int i=0;
                 @Override
                 protected void onCreate(Bundle savedInstanceState) {
                     super.onCreate(savedInstanceState);
                     setContentView(R.layout.activity_kesempatan);
-                    cvRandomKesempatan = findViewById(R.id.cvRandomKesempatan);
+                    ImageButton cvRandomKesempatan = findViewById(R.id.cvRandomKesempatan);
                     tvResultKesempatan = findViewById(R.id.tvResultKesempatan);
                     initData();
                     cvRandomKesempatan.setOnClickListener(new View.OnClickListener() {

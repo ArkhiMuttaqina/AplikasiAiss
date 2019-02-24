@@ -7,18 +7,14 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class tari extends AppCompatActivity {
-    private ImageButton guel;
-    private ImageButton barong;
-    private ImageButton topeng;
-    private ImageButton inai;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tari);
-        inai = findViewById(R.id.inai);
-        guel = findViewById(R.id.guel);
-        topeng = findViewById(R.id.topeng);
-        barong = findViewById(R.id.barong);
+        ImageButton inai = findViewById(R.id.inai);
+        ImageButton guel = findViewById(R.id.guel);
+        ImageButton topeng = findViewById(R.id.topeng);
+        ImageButton barong = findViewById(R.id.barong);
 
         inai.setOnClickListener(new View.OnClickListener() {
             @Override

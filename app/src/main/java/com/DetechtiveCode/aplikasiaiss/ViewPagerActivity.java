@@ -1,20 +1,26 @@
 package com.DetechtiveCode.aplikasiaiss;
 
+import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 public class ViewPagerActivity extends AppCompatActivity {
     private ImageButton selanjut;
-    private LinearLayout slider_dots;
     private int dot_count;
     private ImageView[] dots;
+     Dialog Dialogku;
+     RelativeLayout popoub;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +28,9 @@ public class ViewPagerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_viewpager);
         ViewPager viewPager = findViewById(R.id.pager);
         selanjut = findViewById(R.id.selanjut);
-        slider_dots = findViewById(R.id.slider_dots);
+        Dialogku = new Dialog(this, android.R.style.Theme_DeviceDefault_Light_NoActionBar_Fullscreen
+        );
+        LinearLayout slider_dots = findViewById(R.id.slider_dots);
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(this);
         viewPager.setAdapter(adapter);
@@ -74,9 +82,23 @@ public class ViewPagerActivity extends AppCompatActivity {
         selanjut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goToX = new Intent(ViewPagerActivity.this,MainMenuActivity.class);
-                startActivity(goToX);
+                Dialogku.setContentView(R.layout.poppo);
+                ImageButton Kusy;
+                Kusy = Dialogku.findViewById(R.id.kuy);
+                Kusy.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Dialogku.dismiss();
+                        Intent goToX = new Intent(ViewPagerActivity.this,MainMenuActivity.class);
+                        startActivity(goToX);
+                    }
+                });
+                Dialogku.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                        WindowManager.LayoutParams.FLAG_FULLSCREEN);
+                Dialogku.show();
+
             }
         });
     }
+
 }
