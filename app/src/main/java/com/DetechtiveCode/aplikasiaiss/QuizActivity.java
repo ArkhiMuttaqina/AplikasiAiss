@@ -54,7 +54,6 @@ public class QuizActivity extends AppCompatActivity {
         Dialogku.setContentView(R.layout.dialogbenar);
         tvKuis = findViewById(R.id.tvResultKuis);
         updatePertanyaan(r.nextInt(pertanyaanlength));
-        ImageButton btnKuis = findViewById(R.id.btnKuis);
         btncekcek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
