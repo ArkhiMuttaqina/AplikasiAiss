@@ -46,13 +46,13 @@
                 android:layout_height="231dp"
                 android:layout_marginEnd="30dp"
                 android:background="@drawable/kesempatan"
-                android:contentDescription="TODO" />
+                android:contentDescription="@string/todo" />
         <ImageButton
             android:id="@+id/cvWawasan"
             android:layout_width="176dp"
             android:layout_height="231dp"
             android:background="@drawable/wawasan"
-            android:contentDescription="TODO" />
+            android:contentDescription="@string/todo" />
 
 
 
@@ -65,8 +65,9 @@
         android:textSize="15sp"
         android:clickable="true"
         android:id="@+id/yo"
-        android:layout_marginTop="680dp"
-        android:gravity="center"/>
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:focusable="true" />
 
 
 </LinearLayout>
