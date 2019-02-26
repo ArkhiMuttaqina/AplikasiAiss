@@ -8,7 +8,7 @@
     tools:context=".tari">
     <LinearLayout
         android:layout_width="356dp"
-        android:layout_height="220dp"
+        android:layout_height="230dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="250dp"
         >

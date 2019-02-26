@@ -13,6 +13,7 @@
         android:layout_height="280dp"
         android:layout_marginTop="56dp"
         android:scrollbarSize="1dp"
+        android:scrollIndicators="left"
         android:scrollbarStyle="outsideOverlay"
         tools:targetApi="ice_cream_sandwich">
 
@@ -37,8 +38,8 @@
         android:scrollIndicators="left"
         android:scrollbarSize="1dp"
         android:overScrollMode="always"
-        android:textColor="@color/colorPrimaryDark"
-        tools:targetApi="m">
+        android:touchscreenBlocksFocus="false"
+        android:textColor="@color/colorPrimaryDark">
 
         <RadioButton
             android:id="@+id/rbPilihanJawaban1"
