@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/bgintro"
     tools:context=".kami">
 
@@ -15,11 +15,11 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="300dp"
         android:gravity="center"
         android:text="@string/apa"
         android:textSize="20sp"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/grey_font"
         />
     <ImageButton
         android:layout_width="100dp"
@@ -28,8 +28,8 @@
         android:id="@+id/kusis"
         android:contextClickable="true"
         android:background="@drawable/buttonbenar"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="80dp"
         android:layout_marginStart="160dp"/>
 
 
-</RelativeLayout>
+</LinearLayout>

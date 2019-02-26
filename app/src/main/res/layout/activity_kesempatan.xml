@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/bgkesem"
     tools:context=".KesempatanActivity">
 
-    <ScrollView
-        style="@android:style/Widget.DeviceDefault.Light.ScrollView"
-        android:layout_width="360dp"
-        android:layout_marginTop="56dp"
-        android:layout_height="470dp"
-        android:scrollbarStyle="outsideOverlay"
-        tools:targetApi="ice_cream_sandwich" />
-        <TextView
+    <TextView
         android:id="@+id/tvResultKesempatan"
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
-            android:padding="10dp"
-            android:textSize="28sp"
-            android:textColor="@color/colorPrimaryDark"
-            />
-    <ImageButton
+        android:layout_width="360dp"
+        android:layout_height="470dp"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:scrollbarSize="1dp"
+        android:layout_marginTop="56dp"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp" />
+
+<ImageButton
         android:id="@+id/cvRandomKesempatan"
         android:layout_width="143dp"
         android:layout_height="66dp"
-        android:layout_marginTop="560dp"
         android:layout_marginStart="112dp"
         android:scaleType="fitXY"
         android:background="@drawable/buttonkesem"
         android:contentDescription="TODO" />
-</RelativeLayout>
+</LinearLayout>

@@ -6,12 +6,4 @@
     android:background="@drawable/bg_utama"
     tools:context=".SplashActivity">
 
-
-    <ProgressBar
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="550dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginStart="175dp"/>
-
 </LinearLayout>

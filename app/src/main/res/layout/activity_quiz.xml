@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/bgkuis"
     tools:context=".QuizActivity">
@@ -31,8 +32,7 @@
         android:id="@+id/rgPilihanJawaban"
         android:layout_width="360dp"
         android:layout_height="170dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:layout_marginTop="356dp">
+        android:textColor="@color/colorPrimaryDark">
 
         <RadioButton
             android:id="@+id/rbPilihanJawaban1"
@@ -64,8 +64,8 @@
         android:id="@+id/btncekcek"
         android:layout_width="143dp"
         android:layout_height="66dp"
-        android:layout_marginTop="655dp"
+        android:layout_marginTop="80dp"
         android:layout_marginStart="192dp"
         android:background="@drawable/buttoncek"
         android:contentDescription="TODO" />
-</RelativeLayout>
+</LinearLayout>

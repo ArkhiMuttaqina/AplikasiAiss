@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/m_bgalat"
     tools:context=".mkolintang">
 
     <ImageView
-        android:layout_width="391dp"
+        android:layout_width="match_parent"
         android:layout_height="289dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
@@ -20,15 +21,13 @@
         android:layout_height="60dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="90dp"
-        android:layout_marginTop="310dp"
         android:text="@string/alat_musik_kolintang"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp" />
     <ScrollView
-        android:layout_width="460dp"
+        android:layout_width="match_parent"
         android:layout_height="290dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="370dp"
         android:layout_marginRight="20dp"
         android:scrollbarSize="1dp">
         <RelativeLayout
@@ -43,4 +42,4 @@
                 android:textSize="17sp" />
         </RelativeLayout>
     </ScrollView>
-</RelativeLayout>
+</LinearLayout>

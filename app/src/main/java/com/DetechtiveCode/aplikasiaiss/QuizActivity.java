@@ -75,6 +75,7 @@ public class QuizActivity extends AppCompatActivity {
                         Dialogku.dismiss();
                         Intent goToX = new Intent(QuizActivity.this,MainMenuActivity.class);
                         startActivity(goToX);
+                        QuizActivity.this.onStop();
                     }
                 });
                 Dialogku.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -88,6 +89,7 @@ public class QuizActivity extends AppCompatActivity {
                         Dialognya.dismiss();
                         Intent goToX = new Intent(QuizActivity.this,MainMenuActivity.class);
                         startActivity(goToX);
+                        QuizActivity.this.onStop();
                     }
                 });
                 Dialognya.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -105,6 +107,7 @@ public class QuizActivity extends AppCompatActivity {
                         Dialogku.dismiss();
                         Intent goToX = new Intent(QuizActivity.this,MainMenuActivity.class);
                         startActivity(goToX);
+                        QuizActivity.this.onStop();
                     }
                 });
                 Dialogku.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -118,6 +121,7 @@ public class QuizActivity extends AppCompatActivity {
                         Dialognya.dismiss();
                         Intent goToX = new Intent(QuizActivity.this,MainMenuActivity.class);
                         startActivity(goToX);
+                        QuizActivity.this.onStop();
                     }
                 });
                 Dialognya.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -135,6 +139,7 @@ public class QuizActivity extends AppCompatActivity {
                         Dialogku.dismiss();
                         Intent goToX = new Intent(QuizActivity.this,MainMenuActivity.class);
                         startActivity(goToX);
+                        QuizActivity.this.onStop();
                     }
                 });
                 Dialogku.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -148,6 +153,7 @@ public class QuizActivity extends AppCompatActivity {
                         Dialognya.dismiss();
                         Intent goToX = new Intent(QuizActivity.this,MainMenuActivity.class);
                         startActivity(goToX);
+                        QuizActivity.this.onStop();
                     }
                 });
                 Dialognya.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));

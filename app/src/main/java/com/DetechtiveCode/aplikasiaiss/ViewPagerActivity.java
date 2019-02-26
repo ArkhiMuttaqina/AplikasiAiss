@@ -91,6 +91,10 @@ public class ViewPagerActivity extends AppCompatActivity {
                         Dialogku.dismiss();
                         Intent goToX = new Intent(ViewPagerActivity.this,MainMenuActivity.class);
                         startActivity(goToX);
+                        ViewPagerActivity.this.onStop();
+
+                        //ViewPagerActivity.this.onD
+
                     }
                 });
                 Dialogku.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,

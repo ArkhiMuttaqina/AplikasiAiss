@@ -1,68 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bgutama"
     tools:context=".MainMenuActivity">
 
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="0dp"
-        android:contentDescription="TODO"
-        android:scaleType="centerCrop"
-        android:src="@drawable/bgutama" />
-
-    <RelativeLayout
-        android:layout_width="353dp"
-        android:layout_height="610dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
+        android:layout_height="310dp"
+        android:orientation="horizontal"
         android:layout_gravity="end"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:layout_marginTop="60dp"
         >
-
         <ImageButton
             android:id="@+id/cvQuiz"
             android:layout_width="176dp"
             android:layout_height="231dp"
-            android:layout_marginEnd="170dp"
+            android:layout_marginEnd="30dp"
             android:background="@drawable/kuis"
-            android:contentDescription="TODO" />
-
-        <ImageButton
-            android:id="@+id/cvWawasan"
-            android:layout_width="176dp"
-            android:layout_height="231dp"
-            android:layout_marginTop="371dp"
-            android:layout_marginLeft="170dp"
-            android:background="@drawable/wawasan"
-            android:contentDescription="TODO" />
-
-        <ImageButton
-            android:id="@+id/cvKesempatan"
-            android:layout_width="176dp"
-            android:layout_height="231dp"
-            android:layout_marginTop="371dp"
-            android:layout_marginEnd="170dp"
-            android:background="@drawable/kesempatan"
-            android:contentDescription="TODO" />
-
+            android:contentDescription="@string/todo" />
         <ImageButton
             android:id="@+id/cvDana"
             android:layout_width="176dp"
             android:layout_height="231dp"
-            android:layout_marginLeft="170dp"
             android:background="@drawable/dana_umum"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:orientation="horizontal"
+            android:layout_gravity="end"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="80dp"
+            >
+            <ImageButton
+                android:id="@+id/cvKesempatan"
+                android:layout_width="176dp"
+                android:layout_height="231dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/kesempatan"
+                android:contentDescription="TODO" />
+        <ImageButton
+            android:id="@+id/cvWawasan"
+            android:layout_width="176dp"
+            android:layout_height="231dp"
+            android:background="@drawable/wawasan"
             android:contentDescription="TODO" />
-    </RelativeLayout>
+
+
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -75,4 +69,4 @@
         android:gravity="center"/>
 
 
-</RelativeLayout>
+</LinearLayout>

@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgalat"
+    android:orientation="vertical"
     tools:context=".Alat">
 
-    <ImageView
-        android:layout_width="720dp"
-        android:layout_height="1280dp"
-        android:background="@drawable/bgalat"
-        android:contentDescription="@string/todo" />
-
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="356dp"
-            android:layout_height="460dp"
+            android:layout_height="220dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="250dp"
             >
-
             <ImageButton
 
                 android:id="@+id/kolintang"
@@ -32,28 +27,33 @@
                 android:layout_width="176dp"
                 android:layout_height="233dp"
                 android:hapticFeedbackEnabled="true"
-                android:layout_marginStart="174dp"
                 android:background="@drawable/aramba"
                 android:contentDescription="@string/todo" />
-            <ImageButton
-                android:id="@+id/gambus"
-                android:layout_width="176dp"
-                android:layout_height="233dp"
-                android:hapticFeedbackEnabled="true"
-                android:layout_marginTop="230dp"
-                android:background="@drawable/gambus"
-                android:contentDescription="@string/todo" />
-            <ImageButton
-                android:id="@+id/saluang"
-                android:layout_width="176dp"
-                android:layout_height="233dp"
-                android:hapticFeedbackEnabled="true"
-                android:layout_marginTop="230dp"
-                android:layout_marginStart="174dp"
-                android:background="@drawable/saluang"
-                android:contentDescription="@string/todo" />
-        </RelativeLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="230dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="5dp">
+
+        <ImageButton
+            android:id="@+id/gambus"
+            android:layout_width="176dp"
+            android:layout_height="233dp"
+            android:background="@drawable/gambus"
+            android:contentDescription="@string/todo"
+            android:hapticFeedbackEnabled="true" />
+
+        <ImageButton
+            android:id="@+id/saluang"
+            android:layout_width="176dp"
+            android:layout_height="233dp"
+            android:background="@drawable/saluang"
+            android:contentDescription="@string/todo"
+            android:hapticFeedbackEnabled="true" />
+    </LinearLayout>
 
 
-
-</RelativeLayout>
+</LinearLayout>

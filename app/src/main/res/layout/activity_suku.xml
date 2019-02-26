@@ -1,56 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgsuku"
+    android:orientation="vertical"
     tools:context=".suku">
-    <ImageView
-        android:layout_width="720dp"
-        android:layout_height="1280dp"
-        android:background="@drawable/bgsuku"
-        android:scaleType="centerCrop"
-        android:contentDescription="@string/todo" />
 
-    <RelativeLayout
-        android:layout_width="350dp"
-        android:layout_height="460dp"
+
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="220dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="250dp"
         >
-
         <ImageButton
+
             android:id="@+id/jawa"
             android:layout_width="176dp"
             android:layout_height="233dp"
-            android:hapticFeedbackEnabled="true"
             android:background="@drawable/jawa"
-            android:contentDescription="@string/todo" />
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/todo"
+            android:hapticFeedbackEnabled="true" />
         <ImageButton
             android:id="@+id/baduy"
             android:layout_width="176dp"
             android:layout_height="233dp"
             android:hapticFeedbackEnabled="true"
-            android:layout_marginStart="176dp"
             android:background="@drawable/baudy"
             android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="230dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="5dp">
         <ImageButton
             android:id="@+id/madura"
             android:layout_width="176dp"
             android:layout_height="233dp"
-            android:hapticFeedbackEnabled="true"
-            android:layout_marginTop="230dp"
             android:background="@drawable/madura"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            android:hapticFeedbackEnabled="true" />
+
         <ImageButton
             android:id="@+id/sunda"
             android:layout_width="176dp"
             android:layout_height="233dp"
-            android:hapticFeedbackEnabled="true"
-            android:layout_marginTop="230dp"
-            android:layout_marginStart="174dp"
             android:background="@drawable/sunda"
-            android:contentDescription="@string/todo" />
-    </RelativeLayout>
+            android:contentDescription="@string/todo"
+            android:hapticFeedbackEnabled="true" />
+    </LinearLayout>
 
 
-</RelativeLayout>
+</LinearLayout>
