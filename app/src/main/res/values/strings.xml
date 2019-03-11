@@ -58,4 +58,92 @@
     <string name="alat_musik_kolintang">Alat Musik Kolintang</string>
     <string name="tpeng">Tari topeng merupakan tarian tradisional yang berasal dari Cirebon, Jawa Barat. Tarian ini dipentaskan oleh penari-penari yang memakai topeng. Keunikan dari tarian ini adalah topeng yang dikenakan mempunyai karakter yang berbeda-beda. Penari yang mementaskan Tari Topeng disebut Dalang. Karena setiap penari memerankan karakter pada topeng yang dikenakan. Tarian ini dapat dipentaskan oleh satu orang penari dan juga dapat dipentaskan oleh beberapa orang penari.</string>
     <string name="apa">Aplikasi ini dibuat oleh DetechtiveCode Surabaya, Dilarang meng-Decompile meng Recompile, Memodifikasi, Merubah, Menggandakan dengan merubah nama aplikasi selain Aplikasi Aiss dan Tanda Pembuat Aplikasi. Kami selaku developer berhak menggungat meminta siapa saja yang menyalah gunakan suatu karya cipta. Hasil karya Cipta aplikasi sudah memiliki persetujuan dengan Pihak terkait. Kontributor Arkhi Muttaqina, Akhmad Hilmy Z, Nino Fachrurozy </string>
+    <string name="html">
+         <![CDATA[
+         <p style="text-align: center;"><strong>Aturan Permainan AISS APP</strong></p>
+<p style="text-align: justify;">AISS APP adalah permainan yang mengintegrasikan antara wawasan kebudayaan Indonesia dan simulasi tentang Investasi. Pemain akan belajar mengelola uangnya untuk diinvestasikan baik melalui investasi fisik berupa tanah, pembangunan rumah dan hotel maupun investasi keuangan berupa saham yang harapanya dapat memberikan keuntungan dimasa mendatang. Permainan AISS APP ini memerlukan kecerdasan, ketegasan, dan ketangkasan para pemain dalam mengambil keputusan untuk berinvestasi serta melakukan transaksi jual beli saham. Selain itu, pemain harus mampu menganalisis secara cepat dan tepat terhadap probabilitas meningkatnya harga saham.</p>
+<p style="text-align: justify;">Permainan ini dimulai di kotak START dan berjalan seterusnya sesuai dengan angka dadu. Pemain yang berhenti diatas sebuah tanah bangunan yang belum dimiliki oleh pemain lain, berhak membelinya dari bank sesuai dengan harga yang tertera dipapan permainan. Apabila pemain tersebut tidak berminat untuk membeli, maka tanah bangunan tersebut akan dilelang kepada para pemain. Pemain dengan penawaran tertinggi berhak memiliki tanah bangunan tersebut. Tujuan utama menginvestasikan uangnya pada tanah bangunan adalah memungut sewa dari pemain yang berhenti diatas tanah bangunan tersebut. Uang sewa dapat dipungut lebih banyak lagi, apabila pemilik tanah bangunan mendirikan rumah maupun hotel diatas tanah tersebut sebagai wujud investasi fisiknya.</p>
+<p style="text-align: justify;">Apabila ada salah satu pemain yang berhenti diatas kotak penerbitan saham, maka pihak broker akan menawarkan saham-saham perusahaan kepada para pemain sebagai calon investor. Kemudian pemain akan melakukan fase <em>bidding </em>atau penawaran terhadap saham-saham yang ditawarkan. Pemain dengan penawaran tertinggi berhak untuk memilih jenis saham yang telah ditawarkan oleh broker. Tujuan utama menginvestasikan uangnya dalam bentuk investasi keuangan berupa saham adalah untuk mendapatkan <em>return </em>berupa deviden atau <em>capital gain</em>.</p>
+<p style="text-align: justify;">Sebelumnya Silahkan Unduh Peralatan AISS bisa di Unduh Link Berikut&nbsp;<a href="https://drive.google.com/open?id=1ln3xLW-BK1LCJiNMP1nRm1GBS54fi-7I">https://drive.google.com/open?id=1ln3xLW-BK1LCJiNMP1nRm1GBS54fi-7I</a>&nbsp;atau&nbsp;<a href="https://bit.ly/2HcqqN1">https://bit.ly/2HcqqN1</a>
+<p style="text-align: center;"><strong>Peraturan Permainan</strong><br /><strong>(untuk 3-7 orang pemain)</strong></p>
+<p style="text-align: left;"><strong>ALAT-ALAT PERMAINAN</strong></p>
+<ol style="text-align: left;">
+<li>Papan permainan AISS-APP</li>
+<li>Kartu Gejolak Ekonomi</li>
+<li>Kartu bukti kepemilikan lembar saham</li>
+<li>Kartu saham</li>
+<li>Kartu hak milik tanah bangunan</li>
+<li>Uang AISS-APP</li>
+<li>25 Biji rumah</li>
+<li>10 Biji Hotel</li>
+<li>1 dadu</li>
+<li>Peraga</li>
+<li>Tanda panah</li>
+</ol>
+<p style="text-align: left;"><strong>DURASI PERMAINAN<br /></strong>Durasi dalam permainan ini adalah selama 1 jam (60 menit)</p>
+<p style="text-align: left;"><strong>PERSIAPAN</strong></p>
+<ol style="text-align: left;">
+<li>Papan permainan dibeber diatas meja</li>
+<li>Menata kartu saham dan meletakan tanda panah yang menunjukan harga saham awal</li>
+</ol>
+<ul style="text-align: left;">
+<li>Perusahaan pariwisata di harga 800</li>
+<li>Perusahaan properti di harga 1.300</li>
+<li>Perusahaan jasa di harga 3.500</li>
+<li>Perusahaan manufaktur di harga 5.000</li>
+</ul>
+<ol style="text-align: left;" start="3">
+<li>Pihak broker dan pejabat bank dipilih dari 2 orang diantara pemain.</li>
+<li>Kartu hak milik tanah bangunan diserahkan kepada bank, sedangkan kartu gejolak ekonomi dan kartu bukti kepemilikan saham diserahkan peda broker.</li>
+<li>Masing-masing pemain akan mendapatkan modal awal sebesar 40.000</li>
+<li>Meletakan peraga dari masing-masing pemmain diatas kotak START.</li>
+</ol>
+<p style="text-align: left;"><strong>UANG</strong></p>
+<p>Uang akan dibagikan kepada pemain sebagai modal awal. Masing-masing sebagai berikut :</p>
+<ul>
+<li>10 = 5 Koin</li>
+<li>50 = 3 Koin</li>
+<li>100 = 3 Koin</li>
+<li>500 = 3 Koin</li>
+<li>1000 = 1 Koin</li>
+<li>2000 = 1 Koin</li>
+<li>5000 = 1 Koin</li>
+<li>10000 = 1 Koin</li>
+<li>20000 = 1 Koin</li>
+</ul>
+<p><strong>PERMULAAN</strong></p>
+<p>Masing-masing pemain akan mulai melempar dadu untuk menentukan pemain yang berhak bermain lebih awal. Pemain dengan jumlah angka dadu tertinggi berhak memulai terlebih dahulu, kemudian disusul pemain lainya sesuai dengan jumlah angka dadu.</p>
+<p><strong>GAJI</strong></p>
+<p>Masing-masing pemain akan mendapatkan gaji dari bank sebesar 2000 setelah melewati start.</p>
+<p><strong>KEUNTUNGAN UNTUK PEMAIN</strong></p>
+<p>Pemain akan mendapat keuntungan berupa sewa, deviden, dan <em>capital ga</em>in.</p>
+<p>Pemain akan mendapatkan keuntungan atas sewa yang lebih besar apabila pemain mampu memiliki satu kompleks tanah bangunan (misal kolintang, gambus, seluang dan arumba) karena pemain dapat memungut sewa sebesar 2X lipat.</p>
+<p>Selain itu pemain juga mendapat keuntungan dari deviden dan <em>capital gain. </em>Deviden merupakan <em>return</em> (imbal hasil) yang diterima oleh investor atas investasinya yang diperoleh dari laba usaha perusahaan yang dibagikan. Sedangkan <em>capital gain </em>adalah keuntungan yang didapatkan dari selisih antara harga jual dan harga beli saham dimana harga jual tersebut nilainya lebih tinggi dari pada harga beli. <em>Capital loss</em> merupakan kerugian yang diterima oleh investor akibat harga beli lebih tinggi dari pada harga jual saham.</p>
+<p><em>&nbsp;</em></p>
+<p><strong>BERHENTI DI KESEMPATAN, DANA UMUM, dan KUIS</strong></p>
+<p>Apabila pemain berhenti di kesempatan, dana umum, Maka pemain memilih menu-menu tersebut pada aplikasi AISS APP dan melakukan sesuai dengan perintahnya. Sedangkan, jika pemain berhenti di kuis, maka pemain memilih menu kuis di aplikasi AISS APP. Kemudian pemain akan disuguhkan pertanyaan-pertanyaan tentang kearifan lokal di Indonesia.apbila pemain berhasil menjawab pertanyaan, maka pemain akan mendapat uang dari bank sebesar 3.000.</p>
+<p><strong>BERHENTI DI GEJOLAK EKONOMI</strong></p>
+<p>Apabila salah satu pemain berhenti di gejolak Ekonomi, maka broker akan membagikan kartu gejolak ekonomi di setiap kartu saham. Yang nantinya kartu tersebut akan memberikan informasi terkait pergerakan harga saham. Pergerakan tersebut akan ditandai dengan tanda panah yang sesuai dengan kartu gejolak ekonomi pada masing-masing kartu saham.</p>
+<p><strong>BERHENTI DI PENERBITAN SAHAM</strong></p>
+<p>Apabila ada salah satu pemain yang berhenti diatas kotak penerbitan saham, maka pihak broker akan menawarkan saham-saham perusahaan kepada para pemain sebagai calon investor. Kemudian pemain akan melakukan fase <em>bidding </em>atau penawaran terhadap saham-saham yang ditawarkan. Pemain dengan penawaran tertinggi berhak untuk memilih jenis saham yang telah ditawarkan oleh broker.</p>
+<p><strong>BERHENTI DI FASE JUAL</strong></p>
+<p>Apabila ada salah satu pemain berhenti diatas kotak fase jual, maka semua pemain dapat menjual sahamnya di bursa atau tetap menahan sahamnya (tidak dijual). Pemain yang ingin membeli saham dari pemain lain yang menjual saham, maka diperbolehkan sesuai dengan harga saham yang tertera dikartu saham. Apabila tidak ada pemain yang ingin membeli saham dari pemain yang menjual saham, maka saham tersebut tetap dapat dijual dengan asumsi terdapat pembeli selain pemain yang sedang memainkan AISS APP yang nantinya akan dibayarkan oleh bank kepada pemain yang menjual saham.</p>
+<p><strong>CARA <em>BIDDING</em> (PENAWARAN) SAAT PENERBITAN SAHAM</strong></p>
+<p>Pada saat <em>bindding<strong>, </strong></em>pemain akan menentukan jumlah penawaran untuk saham yang diterbitkan dengan cara menggenggam uang tersebut sehingga antar pemain tidak dapat mengetahui berapa jumlah penawan dari masing-masing pemain. Kemudian semua pemain membukanya secara bersamaan. Pemain dengan jumlah penawaran terbesar, berhak untuk memilih saham yang terbit terlebih dahulu.</p>
+<p><strong>MEMBANGUN RUMAH</strong></p>
+<p>Pemain dapat membangun rumah apabila pemain berhenti diatas tanah bangunannya sendiri dengan harga sesuai dengan kartu hak milik tanah bangunannya. Pemain hanya dapat membangun 1 rumah disetip berhentinya.</p>
+<p><strong>MEMBANGUN HOTEL</strong></p>
+<p>Pemain dapat membangun hotel apabila pemain berhenti di atas tanah bangunanya sendiri yang telah berdiri 4 rumah dengan harga sesuai dengan kartu hak milik tanah bangunanya,</p>
+<p><strong>MENJUAL ASET FISIK</strong></p>
+<p>tanah yang belum ada bangunanya, maka dapat ditransaksikan antar pemain dengan harga yang tidak terbatas. Namun apabila tanah bangunan tersebut sudah didirikan rumah atau hotel, maka bangunan tersebut harus dikembalikan kepada bank, dan bank hanya akan membayar harga bangunan tersebut setengah dari harga resminya. Untuk hotel, bank akan membayar setengah dari harga hotel dan setengah dari harga 4 rumah.</p>
+<p><strong>HIPOTIK (TANAH DIGADAIKAN KEPADA BANK)</strong></p>
+<p>Pemain dapat mengadaikan hak atas tanah bangunanya kepada bank sesuai dengan harga hipotik yang tertera dikartu hak milik tanah bangunan. Maka untuk sementara waktu, pendapatan sewa atas tanah tersebut menjadi milik bank. Pemain dapat menebus tanh bangunan yang digadaikan tersebut dengan cara membayar harga hipotiknya dan bunga 10%.</p>
+<p><strong>BANGKRUT / PAILIT</strong></p>
+<p>Pemain dikatakan bangkrut apabila pemain tidak dapat membayar hutang-hutangnya kepada kreditor. Segala kekayaannya harus disetorkan kepada bank dan pemain harus berhenti bermain. Kemudian bank akan melelang asetnya yang tersisa kepada para pemain lainya.</p>
+<p><strong>KETERANGAN LAIN</strong></p>
+<p>Apabila pemain yang bangkrut memiliki hutang kepada pemain lain (kreditor) dan masih menggadaikan tanahnya kepada bank, maka kreditor dapat dapat menebusnya kepada bank sehingga memblokir kepemilikan sebelumnya, dan tanah bangunan tersebut menjadi hak milik kreditor.</p>
+<p><strong>PERMAINAN SELESAI</strong></p>
+<p>Permainan dianggap selesai apabila sudah mencapai waktu 60 menit. Seluruh pemain akan menjumlahkan kekayaannya dan harus membayar semua hutangnya apabila memiliki hutang. Pemain dengan jumlah kekayaan terbesar akan mendapat julukan intelligence of AISS. Pemain yang kalah akan mendapat julukan bangkrupt of AISS.</p>
+           ]]>
+    </string>
 </resources>

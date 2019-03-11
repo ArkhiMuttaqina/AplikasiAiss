@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".kami"></activity>
+        <activity android:name=".caranya"></activity>
+        <activity android:name=".kami" />
         <activity android:name=".mgadang" />
         <activity android:name=".msalaso" />
         <activity android:name=".mkebaya" />

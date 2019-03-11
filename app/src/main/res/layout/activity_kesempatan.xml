@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/tvResultKesempatan"
-        android:layout_width="360dp"
+        android:layout_width="310dp"
         android:layout_height="470dp"
         android:scrollbars="vertical"
         android:scrollbarStyle="insideInset"
@@ -17,12 +17,12 @@
         android:layout_marginTop="56dp"
         android:padding="10dp"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="28sp" />
+        android:textSize="20sp" />
 
 <ImageButton
         android:id="@+id/cvRandomKesempatan"
-        android:layout_width="143dp"
-        android:layout_height="66dp"
+        android:layout_width="113dp"
+        android:layout_height="55dp"
         android:layout_marginStart="112dp"
         android:scaleType="fitXY"
         android:background="@drawable/buttonkesem"

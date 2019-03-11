@@ -9,24 +9,23 @@
 
 
     <LinearLayout
-        android:layout_width="356dp"
-        android:layout_height="230dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="250dp"
+        android:layout_width="310dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="205dp"
         >
         <ImageButton
 
             android:id="@+id/jawa"
-            android:layout_width="176dp"
-            android:layout_height="233dp"
+            android:layout_width="156dp"
+            android:layout_height="200dp"
             android:background="@drawable/jawa"
             android:scaleType="centerCrop"
             android:contentDescription="@string/todo"
             android:hapticFeedbackEnabled="true" />
         <ImageButton
             android:id="@+id/baduy"
-            android:layout_width="176dp"
-            android:layout_height="233dp"
+            android:layout_width="156dp"
+            android:layout_height="200dp"
             android:hapticFeedbackEnabled="true"
             android:background="@drawable/baudy"
             android:contentDescription="@string/todo" />
@@ -34,22 +33,20 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="356dp"
-        android:layout_height="230dp"
-        android:layout_gravity="start"
-        android:layout_marginStart="5dp">
+        android:layout_width="310dp"
+        android:layout_height="200dp">
         <ImageButton
             android:id="@+id/madura"
-            android:layout_width="176dp"
-            android:layout_height="233dp"
+            android:layout_width="156dp"
+            android:layout_height="200dp"
             android:background="@drawable/madura"
             android:contentDescription="@string/todo"
             android:hapticFeedbackEnabled="true" />
 
         <ImageButton
             android:id="@+id/sunda"
-            android:layout_width="176dp"
-            android:layout_height="233dp"
+            android:layout_width="156dp"
+            android:layout_height="200dp"
             android:background="@drawable/sunda"
             android:contentDescription="@string/todo"
             android:hapticFeedbackEnabled="true" />

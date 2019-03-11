@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".ViewPagerActivity"
     android:background="@drawable/bgintro">
+
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="650dp" />
+        android:layout_height="500dp" />
 
     <LinearLayout
         android:id="@+id/slider_dots"
@@ -30,6 +31,7 @@
         style="@android:style/Widget.DeviceDefault.ImageButton"
         android:layout_width="135dp"
         android:layout_height="46dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/buttonnext"
         android:contentDescription="@string/todo" />

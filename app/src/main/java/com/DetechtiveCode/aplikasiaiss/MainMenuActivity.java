@@ -11,9 +11,10 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainMenuActivity extends AppCompatActivity {
-
+    private  long back_pressed;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -24,6 +25,7 @@ public class MainMenuActivity extends AppCompatActivity {
         ImageButton cvKesempatan = findViewById(R.id.cvKesempatan);
         ImageButton cvWawasan = findViewById(R.id.cvWawasan);
         ImageButton cvDana = findViewById(R.id.cvDana);
+        ImageButton cara = findViewById(R.id.cara);
         TextView yo = findViewById(R.id.yo);
 
         cvQuiz.setOnClickListener(new View.OnClickListener() {
@@ -67,5 +69,25 @@ public class MainMenuActivity extends AppCompatActivity {
                 MainMenuActivity.this.onPause();
             }
         });
+        cara.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToDana = new Intent(MainMenuActivity.this, caranya.class);
+                startActivity(goToDana);
+                MainMenuActivity.this.onPause();
+            }
+        });
     }
+    public void onBackPressed(){
+        if (back_pressed + 1000 > System.currentTimeMillis()){
+            super.onBackPressed();
+        }
+        else{
+            Toast.makeText(getBaseContext(),
+                    "Tekan sekali Lagi", Toast.LENGTH_SHORT)
+                    .show();
+        }
+        back_pressed = System.currentTimeMillis();
     }
+
+}

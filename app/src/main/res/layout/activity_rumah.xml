@@ -8,24 +8,23 @@
     tools:context=".rumah">
 
     <LinearLayout
-        android:layout_width="356dp"
-        android:layout_height="230dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="250dp"
+        android:layout_width="310dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="205dp"
         >
         <ImageButton
 
             android:id="@+id/waleng"
-            android:layout_width="176dp"
-            android:layout_height="233dp"
+            android:layout_width="156dp"
+            android:layout_height="200dp"
             android:background="@drawable/wawangko"
             android:scaleType="centerCrop"
             android:contentDescription="@string/todo"
             android:hapticFeedbackEnabled="true" />
         <ImageButton
             android:id="@+id/kebaya"
-            android:layout_width="176dp"
-            android:layout_height="233dp"
+            android:layout_width="156dp"
+            android:layout_height="200dp"
             android:hapticFeedbackEnabled="true"
             android:background="@drawable/kabaya"
             android:contentDescription="@string/todo" />
@@ -33,23 +32,22 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="356dp"
-        android:layout_height="230dp"
-        android:layout_gravity="start"
-        android:layout_marginStart="5dp">
+        android:layout_width="310dp"
+        android:layout_height="200dp"
+        android:layout_gravity="start">
 
         <ImageButton
             android:id="@+id/gadang"
-            android:layout_width="176dp"
-            android:layout_height="233dp"
+            android:layout_width="156dp"
+            android:layout_height="200dp"
             android:background="@drawable/gadang"
             android:contentDescription="@string/todo"
             android:hapticFeedbackEnabled="true" />
 
         <ImageButton
             android:id="@+id/salaso"
-            android:layout_width="176dp"
-            android:layout_height="233dp"
+            android:layout_width="156dp"
+            android:layout_height="200dp"
             android:background="@drawable/salaso"
             android:contentDescription="@string/todo"
             android:hapticFeedbackEnabled="true" />

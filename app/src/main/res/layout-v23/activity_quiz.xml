@@ -9,70 +9,84 @@
 
     <ScrollView
         style="@android:style/Widget.DeviceDefault.Light.ScrollView"
-        android:layout_width="360dp"
-        android:layout_height="280dp"
+        android:layout_width="280dp"
+        android:layout_height="250dp"
         android:layout_marginTop="56dp"
         android:scrollbarSize="1dp"
-        android:scrollIndicators="left"
-        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarStyle="insideOverlay"
         tools:targetApi="ice_cream_sandwich">
 
-        <TextView
-            android:id="@+id/tvResultKuis"
-            android:layout_width="360dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:padding="10dp"
-            android:text="Acak Saya"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="30sp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvResultKuis"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Acak Saya"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+    <ScrollView
+        style="@android:style/Widget.DeviceDefault.Light.ScrollView"
+        android:layout_width="295dp"
+        android:layout_height="240dp"
+        android:scrollbarSize="1dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioGroup
+                android:id="@+id/rgPilihanJawaban"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollIndicators="left"
+                android:scrollbarSize="1dp"
+                android:overScrollMode="always"
+                android:textColor="@color/colorPrimaryDark"
+                tools:targetApi="m">
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    tools:ignore="SmallSp" />
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="15sp"/>
+
+                <RadioButton
+                    android:id="@+id/rbPilihanJawaban2"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+        </RelativeLayout>
 
     </ScrollView>
-
-    <RadioGroup
-        android:id="@+id/rgPilihanJawaban"
-        android:layout_width="360dp"
-        android:layout_height="270dp"
-        android:scrollbars="vertical"
-        android:scrollbarAlwaysDrawVerticalTrack="true"
-        android:scrollIndicators="left"
-        android:scrollbarSize="1dp"
-        android:overScrollMode="always"
-        android:touchscreenBlocksFocus="false"
-        android:textColor="@color/colorPrimaryDark">
-
-        <RadioButton
-            android:id="@+id/rbPilihanJawaban1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp"
-            tools:ignore="SmallSp" />
-
-        <RadioButton
-            android:id="@+id/rbPilihanJawaban3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimaryDark"
-            android:layout_marginBottom="20dp"
-            android:textSize="20sp"/>
-
-        <RadioButton
-            android:id="@+id/rbPilihanJawaban2"
-            android:layout_width="match_parent"
-            android:textColor="@color/colorPrimaryDark"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:textSize="20sp" />
-    </RadioGroup>
-
     <ImageButton
         android:id="@+id/btncekcek"
-        android:layout_width="143dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginStart="192dp"
+        android:layout_width="133dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="142dp"
         android:background="@drawable/buttoncek"
         android:contentDescription="@string/todo" />
 </LinearLayout>

@@ -91,7 +91,7 @@ public class ViewPagerActivity extends AppCompatActivity {
                         Dialogku.dismiss();
                         Intent goToX = new Intent(ViewPagerActivity.this,MainMenuActivity.class);
                         startActivity(goToX);
-                        ViewPagerActivity.this.onStop();
+                        ViewPagerActivity.this.finish();
 
                         //ViewPagerActivity.this.onD
 

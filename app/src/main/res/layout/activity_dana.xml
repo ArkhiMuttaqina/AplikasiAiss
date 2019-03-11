@@ -6,28 +6,29 @@
     android:orientation="vertical"
     android:background="@drawable/bgdaum"
     tools:context=".DanaActivity">
+
     <ScrollView
         style="@android:style/Widget.DeviceDefault.Light.ScrollView"
-        android:layout_width="360dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="305dp"
         android:layout_height="470dp"
+        android:layout_marginTop="56dp"
         android:scrollbarSize="1dp"
         android:scrollbarStyle="outsideOverlay"
         tools:targetApi="ice_cream_sandwich">
 
         <TextView
-            android:layout_width="360dp"
+            android:id="@+id/tvResultDana"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:padding="10dp"
-            android:textSize="28sp"
             android:textColor="@color/colorPrimaryDark"
-            android:id="@+id/tvResultDana" />
+            android:textSize="20sp" />
     </ScrollView>
     <ImageButton
         android:id="@+id/cvRandomDana"
-        android:layout_width="143dp"
-        android:layout_height="66dp"
+        android:layout_width="113dp"
+        android:layout_height="55dp"
         android:layout_marginStart="112dp"
         android:scaleType="fitXY"
         android:background="@drawable/buttondaum"

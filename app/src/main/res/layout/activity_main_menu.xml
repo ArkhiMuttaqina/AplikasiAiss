@@ -6,34 +6,43 @@
     android:orientation="vertical"
     android:background="@drawable/bgutama"
     tools:context=".MainMenuActivity">
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AISS v1.2.2 Dibuat oleh DetechtiveCode 2019"
+        android:textSize="10sp"
+        android:clickable="true"
+        android:id="@+id/yo"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:focusable="true" />
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="310dp"
+        android:layout_height="205dp"
         android:orientation="horizontal"
         android:layout_gravity="end"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         >
         <ImageButton
             android:id="@+id/cvQuiz"
-            android:layout_width="176dp"
-            android:layout_height="231dp"
-            android:layout_marginEnd="30dp"
+            android:layout_width="151dp"
+            android:layout_height="206dp"
+            android:layout_marginEnd="35dp"
             android:background="@drawable/kuis"
             android:contentDescription="@string/todo" />
         <ImageButton
             android:id="@+id/cvDana"
-            android:layout_width="176dp"
-            android:layout_height="231dp"
+            android:layout_width="151dp"
+            android:layout_height="206dp"
             android:background="@drawable/dana_umum"
             android:contentDescription="@string/todo" />
     </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="231dp"
+            android:layout_height="205dp"
             android:orientation="horizontal"
             android:layout_gravity="end"
             android:layout_marginLeft="15dp"
@@ -42,32 +51,37 @@
             >
             <ImageButton
                 android:id="@+id/cvKesempatan"
-                android:layout_width="176dp"
-                android:layout_height="231dp"
-                android:layout_marginEnd="30dp"
+                android:layout_width="151dp"
+                android:layout_height="206dp"
+                android:layout_marginEnd="35dp"
                 android:background="@drawable/kesempatan"
                 android:contentDescription="@string/todo" />
         <ImageButton
             android:id="@+id/cvWawasan"
-            android:layout_width="176dp"
-            android:layout_height="231dp"
+            android:layout_width="151dp"
+            android:layout_height="206dp"
             android:background="@drawable/wawasan"
             android:contentDescription="@string/todo" />
 
-
-
     </LinearLayout>
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Aplikasi Dibuat oleh DetechtiveCode 2019"
-        android:textSize="15sp"
-        android:clickable="true"
-        android:id="@+id/yo"
-        android:layout_marginTop="5dp"
-        android:gravity="center"
-        android:focusable="true" />
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageButton
+            android:id="@+id/cara"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/carabtn"/>
+        
+    </LinearLayout>
+
+
 
 
 </LinearLayout>
